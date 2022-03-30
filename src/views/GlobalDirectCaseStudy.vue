@@ -43,7 +43,7 @@
 
 <p>In addition to offering a catalog for users to easily understand course and calendar options, I needed to create a pathway for these users to enroll in courses and order transcripts once done with said courses. Originally, IT wanted to have students fill out this form to get access to classes:</p>
 
-<img src="../assets/nds_application-original workflow.png" class="w-100" />
+<img src="../assets/nds_application-original-workflow.png" class="w-100" />
 
 <p>This ended up being a rough workflow, and so I envisioned a way to split the registration workflow into getting an ID, and signing up in a student portal, much like our regular students from semester to semester. In working with Josh Bodnar, a fullstack developer in IT, we agreed on this workflow for the systems, to integrate our new development into existing Campus Nexus workflows.</p>
 
