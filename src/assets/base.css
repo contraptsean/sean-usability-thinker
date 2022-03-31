@@ -37,10 +37,19 @@ body {
     margin: 3rem 0px;
     font-size: 2rem;
     text-decoration: underline;
+    font-family: 'Palanquin', sans-serif;
 }
 
-#app p {
+#app h4,
+#app h5 {
+    font-family: 'Palanquin', sans-serif;
+}
+
+#app p,
+#app ul,
+#app ol {
     font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
 }
 
 #app .btn {
@@ -69,4 +78,18 @@ body {
     margin-left: 2rem;
     padding-left: 1rem;
     border-left: #00BFA6 5px solid;
+}
+
+#app .card-img-top,
+#app .card {
+    border-radius: 0px;
+}
+
+#app .blog.article img,
+#app .case-study img {
+    border: 1px solid #ccc;
+    margin-bottom: 3rem;
+    max-width: 800px;
+    max-width: 600px;
+    display: block;
 }

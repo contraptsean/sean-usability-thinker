@@ -40,5 +40,8 @@
 .card-body {
   border-top: 1px solid #ccc;
 }
+.card {
+  border:2px solid #ffc0c0;
+}
 
 </style>

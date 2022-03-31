@@ -55,5 +55,8 @@
 </div><!--section-->
 </template>
 <style scoped>
+.card {
+  border: 1px solid steelblue;
+}
 
 </style>

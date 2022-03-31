@@ -7,17 +7,20 @@
                 <p>Made with <i class="bi bi-balloon-heart"></i> by 🖐 for NN/g</p>
             </div>
             <div class="col">
+                <h5>Contact Me</h5>
                 <ul>
                     <li><a href="https://www.linkedin.com/in/sean-hogan-00159610a/" target="_blank">LinkedIn</a></li>
                     <li><a href="https://github.com/contraptsean" target="_blank">Github</a></li>
-                    <li><a href="https://waxalchemical.hashnode.dev/" target="_blank">Blog</a></li>
+                    <li><a href="mailto:contraptsean@gmail.com/" target="_blank">contraptsean@gmail.com</a></li>
                 </ul>
             </div>
             <div class="col">
+                <h5>Follow Me</h5>
+
                 <ul>
                     <li><a href="https://waxalchemical.hashnode.dev/rss.xml" target="_blank">RSS</a></li>
-                    <li><a href="">Linki</a></li>
-                    <li><a href="">Linki</a></li>
+                    <li><a href="https://waxalchemical.hashnode.dev/">Youtube (Coming Soon)</a></li>
+                    <li><a href="https://waxalchemical.hashnode.dev/">Blog - Wax Alchemical</a></li>
                 </ul>
             </div>
         </div>
@@ -34,6 +37,9 @@ import { RouterLink } from 'vue-router'
 <style scoped>
 ul {
     list-style-type: none;
+}
+footer {
+    border-top:1px solid #ddd;
 }
 @media screen and (min-width: 992px) {
     ul {

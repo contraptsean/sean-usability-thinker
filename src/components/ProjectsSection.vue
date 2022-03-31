@@ -5,7 +5,7 @@
 
 
 
-<h2 class="text-center">Projects</h2>
+<h2 class="text-center mb-0">Projects</h2>
 <div class="recent">
   <h3>Recent</h3>
 
@@ -85,7 +85,7 @@
   <template #links>
       <ul>
         <li><i class="bi bi-arrow-right-short me-1"></i><a href="https://usability.notion.site/Bookstore-Meeting-Introduction-to-Issues-b93776567ddc4a4396b5b5f453702ef1">Bookstore Meeting Notes: Introduction to Issues</a></li>
-        <li><i class="bi bi-arrow-right-short me-1"></i><a href="hhttps://usability.notion.site/Bookstore-Env-Scan-2d3ec44db6914fa3ad9ce5fab8b0908b">Bookstore Environmental Scan</a></li>
+        <li><i class="bi bi-arrow-right-short me-1"></i><a href="https://usability.notion.site/Bookstore-Env-Scan-2d3ec44db6914fa3ad9ce5fab8b0908b">Bookstore Environmental Scan</a></li>
       </ul>
   </template>
 </ProjectCardRight>

@@ -9,13 +9,13 @@
     <div class="blog-container row row-cols-1 row-cols-lg-3 g-5">
       
       <div class="col-lg-4" v-for="article in articleList" :key="article._id">
-      <div class="card h-100">
+      <div class="card h-100 border-dark">
   <img :src="article.coverImage" class="card-img-top mb-2" alt="...">
   <div class="card-body px-4 d-flex flex-column">
     <h4 class="card-title">{{article.title}}</h4>
     <p class="card-text text-muted">{{article.dateAdded}}</p>
     <p class="card-text mb-auto">{{article.brief}}</p>
-    <router-link class="btn btn-outline-dark" :to="{ name: 'BlogContent', params: { slug: article.slug }, props: true}">Read More</router-link>
+    <router-link class="btn btn-outline-dark mt-4" :to="{ name: 'BlogContent', params: { slug: article.slug }, props: true}">Read More</router-link>
 
   </div>
 </div>

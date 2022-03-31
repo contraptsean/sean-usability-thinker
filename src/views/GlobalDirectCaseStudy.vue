@@ -3,7 +3,7 @@
   <main>
 <div class="case-study article container mt-5">
     <div class="row pt-5 justify-content-center">
-        <div class="col-lg-8">
+        <div class="col-lg-10">
             <h1>Global Direct Case Study</h1>
             <p class="lead"><span class="text-muted">Summary:</span> This Case Study investigates the problem of creating a new pathway for students to take courses at CSU Global. It has been live for two months and has already has a measureable impact on the institution's financial strategy.</p>
 <h2>Introduction</h2>

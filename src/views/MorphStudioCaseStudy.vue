@@ -3,7 +3,7 @@
   <main>
 <div class="case-study container mt-5">
     <div class="row pt-5 justify-content-center">
-        <div class="col-lg-8">
+        <div class="col-lg-10">
             <h1>Morph Studio Case Study</h1>
             <p class="lead"><span class="text-muted">Summary:</span> This Case Study investigates the problem designing a hair studio site with mulitple dstylist, price scales, and service sets. </p>
 

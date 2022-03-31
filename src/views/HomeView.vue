@@ -4,7 +4,6 @@ import ProjectsSection from '@/components/ProjectsSection.vue'
 import SpeakingSection from '@/components/SpeakingSection.vue'
 import TeachingSection from '@/components/TeachingSection.vue'
 import BlogSection from '@/components/BlogSection.vue'
-// import BlogContent from '@/components/BlogContent.vue'
 </script>
 
 <template>
@@ -14,6 +13,5 @@ import BlogSection from '@/components/BlogSection.vue'
     <SpeakingSection />
     <TeachingSection />
     <BlogSection />
-    <!-- <BlogContent /> -->
   </main>
 </template>

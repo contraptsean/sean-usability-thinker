@@ -76,7 +76,7 @@ gql(GET_USER_ARTICLES, { slug: props.slug, hostname: "https://api.hashnode.com/"
 
 </script>
 
-<style>
+<style scoped>
 .blog.article {
   min-height: 100vh;
 }
@@ -84,9 +84,7 @@ gql(GET_USER_ARTICLES, { slug: props.slug, hostname: "https://api.hashnode.com/"
 .btn {
   border-radius: 0px;;
 }
-img {
-  width: 80%;
-}
+
 h2 {
     text-decoration: underline;
     margin-top:3rem;
@@ -94,10 +92,6 @@ h2 {
 h3 {
     font-size:1.25rem;
     margin-top:2rem;
-}
-img {
-    border: 1px solid #ccc;
-    margin-bottom:3rem;
 }
 p {
     font-size:1.1rem;
