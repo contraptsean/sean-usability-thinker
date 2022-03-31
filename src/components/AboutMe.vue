@@ -14,5 +14,9 @@
   </div>
 </header>
 </template>
-<script setup>
-</script>
+<style scoped>
+.text-decoration-underline {
+
+  text-decoration-color: #00BFA6!important;
+}
+</style>

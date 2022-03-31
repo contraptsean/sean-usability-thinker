@@ -27,7 +27,7 @@
           <RouterLink class="nav-link" to="/#teaching-section">Teaching</RouterLink>
           </li>
         <li class="nav-item">
-          <RouterLink class="nav-link" to="#blog-section">Blog</RouterLink>
+          <RouterLink class="nav-link" to="/#blog-section">Blog</RouterLink>
           </li>
         
         

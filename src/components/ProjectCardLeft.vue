@@ -1,14 +1,14 @@
 <template>
 <div class="project" id="project-card">
 
-<div class="card card-gradient-border mb-3 p-5 shadow card-glow" style="max-width: 100rem;">
-  <div class="row g-5">
-    <div class="col-md-4">
-              <slot name="image"></slot>
+<div class="card card-gradient-border mb-3 shadow card-glow" style="max-width: 100rem;">
+  <div class="row">
+    <div class="col-lg-6">
+          <slot name="image"></slot>
       <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
     </div>
-    <div class="col-md-8">
-      <div class="card-body">
+    <div class="col-lg-6">
+      <div class="card-body pt-5">
         <div class="card-title">
           <slot name="title"></slot>
         </div>

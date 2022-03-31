@@ -39,6 +39,10 @@ body {
     text-decoration: underline;
 }
 
+#app p {
+    font-family: 'Lato', sans-serif;
+}
+
 #app .btn {
     border-radius: 0px;
 }

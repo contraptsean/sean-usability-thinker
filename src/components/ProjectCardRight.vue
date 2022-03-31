@@ -1,11 +1,11 @@
 <template>
 <div class="project" id="project-card">
 
-<div class="card mb-3 p-5 card-gradient-border card-glow text-end" style="max-width: 100rem;">
-  <div class="row g-5">
+<div class="card mb-3 card-gradient-border card-glow text-end" style="max-width: 100rem;">
+  <div class="row">
     
-    <div class="col-md-8">
-      <div class="card-body">
+    <div class="col-lg-6">
+      <div class="card-body pt-5">
         <div class="card-title">
           <slot name="title"></slot>
         </div>
@@ -17,7 +17,7 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-lg-6">
         <slot name="image"></slot>
       <!-- <img src="..." class="img-fluid rounded-start" alt="..."> -->
     </div><!--end col-->
@@ -30,7 +30,7 @@
 .card-gradient-border {
   color: #111;
   border: 2px double transparent;
-  background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(0, 217, 181));
+  background-image: linear-gradient(rgb(13, 14, 33), rgb(68,122,184)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(0, 217, 181));
   background-origin: border-box;
   background-clip: padding-box, border-box;
   transition: all 0.3s ease;

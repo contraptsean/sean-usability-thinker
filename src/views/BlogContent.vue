@@ -14,7 +14,7 @@
 
     <div class="blog-container">
         <p ></p>
-        <div id="content"></div>
+        <article id="content"></article>
 
       </div>
   </div>
@@ -77,6 +77,9 @@ gql(GET_USER_ARTICLES, { slug: props.slug, hostname: "https://api.hashnode.com/"
 </script>
 
 <style>
+.blog.article {
+  min-height: 100vh;
+}
 .card,
 .btn {
   border-radius: 0px;;
@@ -99,7 +102,9 @@ img {
 p {
     font-size:1.1rem;
 }
-
+pre {
+  background-color: #eee;
+}
 .dots-bars-9 {
   width: 40px;
   height: 40px;

@@ -11,7 +11,7 @@
 
   <ProjectCardLeft>
   <template #image>
-    <img src="@/assets/undraw_thought_process.svg" class="w-100" />
+    <img src="@/assets/direct-macbook-prototype-thumb.png" class="w-100"  />
   </template>
 
   <template #title>
@@ -26,9 +26,10 @@
 <RouterLink to="/global-direct-case-study" class="btn btn-outline-dark">See the Case Study </RouterLink>
   </template>
 </ProjectCardLeft>
+
   <ProjectCardRight>
   <template #image>
-    <img src="@/assets/undraw_remote_meeting.svg" class="w-100" />
+    <img src="@/assets/morph-thumb.png" class="w-100" />
   </template>
 
   <template #title>
@@ -50,7 +51,7 @@
 
   <ProjectCardLeft>
   <template #image>
-    <img src="@/assets/undraw_thought_process.svg" class="w-100" />
+    <img src="@/assets/pestle-wf-thumb.png" class="w-100" />
   </template>
 
   <template #title>
@@ -70,7 +71,7 @@
 </ProjectCardLeft>
   <ProjectCardRight>
   <template #image>
-    <img src="@/assets/undraw_thought_process.svg" class="w-100" />
+    <img src="@/assets/undraw_bookstore.svg" class="w-100" style="" />
   </template>
 
   <template #title>
@@ -93,7 +94,7 @@
   <h3>Extra</h3>
     <ProjectCardLeft>
   <template #image>
-    <img src="@/assets/undraw_thought_process.svg" class="w-100" />
+    <img src="@/assets/dodeca-thumb.png" class="w-100" />
   </template>
 
   <template #title>
@@ -131,6 +132,12 @@ ul {
   list-style-type: none;
   padding-left:0px;
 }
-
+img {
+  object-fit: cover!important;
+}
+img.thumb {
+  width: 711px;
+  height: 400px;
+}
 
 </style>
