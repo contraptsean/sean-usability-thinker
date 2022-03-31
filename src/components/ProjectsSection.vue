@@ -102,7 +102,7 @@
   </template>
 
   <template #brief>
-    <p>A proof of concept on 3D rendering and control variables with Vue. People liked it so I left it up and gave it a little interface to tell users about the controls</p>
+    <p>A proof of concept on 3D rendering and control variables with Vue. People liked it so I left it up and gave it a little interface to tell friends about the controls</p>
   </template>
 
   <template #links>

@@ -19,7 +19,7 @@
 
                 <ul>
                     <li><a href="https://waxalchemical.hashnode.dev/rss.xml" target="_blank">RSS</a></li>
-                    <li><a href="https://waxalchemical.hashnode.dev/">Youtube (Coming Soon)</a></li>
+                    <li><a href="" class="disabled">Youtube (Coming 04/03/22)</a></li>
                     <li><a href="https://waxalchemical.hashnode.dev/">Blog - Wax Alchemical</a></li>
                 </ul>
             </div>
