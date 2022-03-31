@@ -2,6 +2,9 @@
 <template>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container-fluid">
+    <router-link class="visually-hidden-focusable bg-grey" 
+        to="#main-content" 
+        @click="$emit('scrollFix','#main-content')">Skip to main content</router-link>
     <RouterLink to="/" class="d-flex align-items-center me-5 navbar-brand">
           <i class="fs-4 me-3 bi bi-wrench-adjustable-circle"></i>
           <span class="fs-4">Sean's Portfolio</span>
@@ -46,27 +49,6 @@
     </div>
   </div>
 </nav>
-<!-- 
-<nav>
-    
-    <ul class="nav nav-pills flex-column mb-auto">
-      <li class="nav-item">
-      </li>
-      <li>
-        <RouterLink class="nav-link" to="/about">About</RouterLink>
-      </li>
-      <li>
-        <RouterLink class="nav-link" to="/works">Selected Works</RouterLink>
-      </li>
-      <li>
-        <RouterLink class="nav-link" to="/blog">Blog</RouterLink>
-      </li>
-      <li>
-
-      </li>
-
-    </ul>
-</nav> -->
 
 </template>
 
@@ -80,5 +62,18 @@ import { RouterLink } from 'vue-router'
 }
 .connect-links .navbar-nav .nav-item a:hover {
   color: #ccc!important;
+}
+.visually-hidden-focusable {
+  position:absolute;
+  background:#ccc;
+  left:10%;
+  padding:2rem;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+  z-index:1;
+}
+
+.visually-hidden-focusable:focus {
+  transform: translateY(0%);
 }
 </style>

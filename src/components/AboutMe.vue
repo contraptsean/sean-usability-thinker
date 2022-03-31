@@ -4,7 +4,7 @@
 <div class="container col-xl-10 col-xxl-8 px-4 py-5">
     <div class="row align-items-center g-lg-5 py-5">
       <div class="col-lg-7 text-center text-lg-start">
-        <h1 class="">Sean Hogan</h1>
+        <h1 class="main-heading">Sean Hogan</h1>
         <p class="col-lg-10 fs-4"><span class="highlight-container"><span class="highlight">Usability Thinker</span></span> who specializes in big messes, funny analogies, and solving problems for people.</p>
       </div>
       <div class="col-md-10 mx-auto col-lg-5">

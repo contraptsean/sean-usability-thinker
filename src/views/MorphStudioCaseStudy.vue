@@ -1,7 +1,7 @@
 
 <template>
-  <main>
-<div class="case-study container mt-5">
+<main id="main-content">
+    <div class="case-study container mt-5">
     <div class="row pt-5 justify-content-center">
         <div class="col-lg-10">
             <h1>Morph Studio Case Study</h1>
@@ -51,10 +51,10 @@
 
 <p>This was the first time I had used Figma, and it was a moderately easy tool to use. I will probably use it or tools like it in the future rather than MS Paint.</p>
 
-        </div>
-    </div>
+        </div><!--col-->
+    </div><!--row-->
 
-</div>
+</div><!--cont-->
   </main>
 </template>
 

@@ -8,6 +8,7 @@
       <div class="row justify-content-center pt-5">
         <div class="col-lg-10">
           <img src="" class="card-img-top" alt="..." id="cover-image">
+          <main id="main-content">
           <header>
           <h1 class="mb-5 display-1" id="title"></h1>
           </header>
@@ -16,11 +17,12 @@
         <p ></p>
         <article id="content"></article>
 
-      </div>
-  </div>
+      </div><!--=blog-contain-->
+          </main>
+  </div><!--col-->
 
-        </div>
-      </div>
+        </div><!--row_-->
+      </div><!--contain-->
       </div><!--else-->
     </div>
 </template>

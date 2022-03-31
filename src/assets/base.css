@@ -14,10 +14,20 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-#app h1 {
+#app h1.main-heading {
     font-weight: 800;
     padding-bottom: 1rem;
     font-size: 5.5rem;
+    background: linear-gradient(#447AB8, #00BFA6, #ffc0c0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#app .article h1,
+#app .case-study h1 {
+    font-weight: 700;
+    padding-bottom: 1rem;
+    font-size: 3rem;
     background: linear-gradient(#447AB8, #00BFA6, #ffc0c0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -34,9 +44,7 @@ body {
 }
 
 #app .home h3 {
-    margin: 3rem 0px;
     font-size: 2rem;
-    text-decoration: underline;
     font-family: 'Palanquin', sans-serif;
 }
 

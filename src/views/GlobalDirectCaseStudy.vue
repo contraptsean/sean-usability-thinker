@@ -1,10 +1,13 @@
 
 <template>
-  <main>
-<div class="case-study article container mt-5">
+<main id="main-content">
+    <div class="case-study article container mt-5">
     <div class="row pt-5 justify-content-center">
         <div class="col-lg-10">
+            <header>
             <h1>Global Direct Case Study</h1>
+            </header>
+            <article>
             <p class="lead"><span class="text-muted">Summary:</span> This Case Study investigates the problem of creating a new pathway for students to take courses at CSU Global. It has been live for two months and has already has a measureable impact on the institution's financial strategy.</p>
 <h2>Introduction</h2>
 
@@ -95,10 +98,11 @@ But Instead the process had to be closer to:
 <p>This is perhaps the first project where I have provided others designs and helped them realize them (for the portal in this instance). Normally I use prototypes and wireframes for stakeholder feedback, and then am also the one iterating on it.</p>
 
 <p>A big takeaway in putting this together for my portfolio, is to save all of my wireframes and usability study artifacts in the future, and to collect quotes in a document for each project.</p>
-        </div>
-    </div>
+            </article>
+        </div><!--col-->
+    </div><!--row-->
 
-</div>
+</div><!--contain-->
   </main>
 </template>
 

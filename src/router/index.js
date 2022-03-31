@@ -36,15 +36,27 @@ const router = createRouter({
         },
     ],
     scrollBehavior(to, from, savedPosition) {
-        if (to.hash) {
-            console.log('id')
+        if (savedPosition) {
+            return savedPosition
+        } else if (to.hash) {
+            //reset focus
+            document.body.setAttribute("tabindex", "-1");
+            document.body.focus();
+            document.body.removeAttribute("tabindex");
+            console.log(from)
+            console.log(to);
             return {
                 el: to.hash,
                 behavior: 'smooth',
-                top: 70
+                top: 100,
             }
         } else {
-            return { top: 0 }
+            //reset focus
+            document.body.setAttribute("tabindex", "-1");
+            document.body.focus();
+            document.body.removeAttribute("tabindex");
+            //scroll to top
+            return { left: 0, top: 0 }
         }
     },
 })

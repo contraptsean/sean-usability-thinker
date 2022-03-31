@@ -7,7 +7,12 @@
 
 <h2 class="text-center mb-0">Projects</h2>
 <div class="recent">
-  <h3>Recent</h3>
+  <span class="recent-heading my-4">
+    <span class="recent-highlight">
+
+  <h3 class="">Recent</h3>
+    </span>
+  </span>
 
   <ProjectCardLeft>
   <template #image>
@@ -19,7 +24,7 @@
   </template>
 
   <template #brief>
-    <p>A digital pathway for individual courses, resulted in a catalog front, admin interface for the courses and enrollments, a portal back-end, new workflows for the main degree pathway, and additional revenue streams</p>
+    <p>Created digital pathway and services for accessing individual courses in online higher education. Resulted in a catalog front, admin interface for the courses and enrollments, a portal back-end, new workflows for the main degree pathway, and additional revenue streams</p>
   </template>
 
   <template #links>
@@ -37,7 +42,7 @@
   </template>
 
   <template #brief>
-    <p>A Studio for multiply artists resulted in a front end allowing for easy booking of any stylist, and for each person to have agency over how they want to present thier services</p>
+    <p>A studio site for multiple artists and hair educators. Resulted in a front end allowing for easy booking of any stylist, and for each person to have agency over how they want to present thier services</p>
   </template>
 
   <template #links>
@@ -46,9 +51,13 @@
 </ProjectCardRight>
 </div>
 
-<div class="in-progress bg-light">
+<div class="in-progress">
+    <span class="in-progress-heading my-4">
+    <span class="in-progress-highlight">
   <h3>In Progress</h3>
 
+    </span>
+    </span>
   <ProjectCardLeft>
   <template #image>
     <img src="@/assets/pestle-wf-thumb.png" class="w-100" />
@@ -59,7 +68,7 @@
   </template>
 
   <template #brief>
-    <p>In Image-crushing application, and study in interface and interaction design. A Work in Progress for sure.</p>
+    <p>In Image-crushing application, and study in interface and interaction design. A Work in Progress for sure</p>
   </template>
 
   <template #links>
@@ -91,7 +100,11 @@
 </ProjectCardRight>
 </div>
 <div class="extra">
+    <span class="extra-heading my-4">
+    <span class="extra-highlight">
   <h3>Extra</h3>
+    </span>
+    </span>
     <ProjectCardLeft>
   <template #image>
     <img src="@/assets/dodeca-thumb.png" class="w-100" />
@@ -102,7 +115,7 @@
   </template>
 
   <template #brief>
-    <p>A proof of concept on 3D rendering and control variables with Vue. People liked it so I left it up and gave it a little interface to tell friends about the controls</p>
+    <p>A proof of concept on 3D rendering and controling other js frameworks with Vue. People liked it so I left it up and gave it a little interface to tell friends about the controls</p>
   </template>
 
   <template #links>
@@ -140,4 +153,73 @@ img.thumb {
   height: 400px;
 }
 
+.recent-heading, 
+.recent-highlight,
+.in-progress-heading, 
+.in-progress-highlight,
+.extra-heading, 
+.extra-highlight {
+  position: relative;
+}
+.recent-heading,
+.in-progress-heading, 
+.extra-heading {
+  display: inline-block;
+}
+.recent-heading:before,
+.recent-heading:after,
+.in-progress-heading:before,
+.in-progress-heading:after,
+.extra-heading:before,
+.extra-heading:after {
+    content: ' ';
+    display: block;
+    height: 90%;
+    width: 100%;
+    margin-left: -3px;
+    margin-right: -3px;
+    position: absolute;
+}
+.recent-heading:before{
+    background: rgba(242,122,242,0.1);
+    transform: rotate(2deg);
+    top: -1px;
+    left: -1px;
+}
+  .recent-heading:after {
+    background: rgba(242,122,242,0.2);
+    top: 3px;
+    right: -2px;
+}
+.in-progress-heading:before{
+    background: rgba(0,191,166,0.1);
+    transform: rotate(2deg);
+    top: -1px;
+    left: -1px;
+}
+  .in-progress-heading:after {
+    background: rgba(0,191,166,0.2);
+    top: 3px;
+    right: -2px;
+}
+.extra-heading:before{
+    background: rgba(68,122,184,0.1);
+    transform: rotate(2deg);
+    top: -1px;
+    left: -1px;
+}
+  .extra-heading:after {
+    background: rgba(68,122,184,0.2);
+    top: 3px;
+    right: -2px;
+}
+  .recent-highlight,
+  .in-progress-highlight,
+  .extra-highlight {
+    color: #333;
+    z-index: 4;
+  }
+  .display-6 {
+    font-size: 1.3rem!important;
+  }
 </style>
