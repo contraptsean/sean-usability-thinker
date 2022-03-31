@@ -2,7 +2,7 @@
 <div class="project" id="project-card">
 
 <div class="card mb-3 card-gradient-border card-glow text-end" style="max-width: 100rem;">
-  <div class="row">
+  <div class="row flex-column-reverse flex-lg-row">
     
     <div class="col-lg-6">
       <div class="card-body pt-5">
