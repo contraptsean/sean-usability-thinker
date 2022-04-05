@@ -24,7 +24,7 @@
   </template>
 
   <template #brief>
-    <p>Created digital pathway and services for accessing individual courses in online higher education. Resulted in a catalog front, admin interface for the courses and enrollments, a portal back-end, new workflows for the main degree pathway, and additional revenue streams</p>
+    <p>Created a digital pathway and services for accessing individual courses in online higher education. Resulted in a catalog front, admin interface for the courses and enrollments, a portal back-end, new workflows for the main degree pathway, and additional revenue streams</p>
   </template>
 
   <template #links>
@@ -68,7 +68,7 @@
   </template>
 
   <template #brief>
-    <p>In Image-crushing application, and study in interface and interaction design. A Work in Progress for sure</p>
+    <p>An Image-crushing application, and study in interface and interaction design. A Work in Progress for sure</p>
   </template>
 
   <template #links>
@@ -193,7 +193,7 @@ img.thumb {
 }
 .in-progress-heading:before{
     background: rgba(0,191,166,0.1);
-    transform: rotate(2deg);
+    transform: rotate(-3deg);
     top: -1px;
     left: -1px;
 }

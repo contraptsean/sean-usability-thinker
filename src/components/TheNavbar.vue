@@ -54,6 +54,19 @@
 
 <script setup>
 import { RouterLink } from 'vue-router'
+import { onMounted } from 'vue'
+import {Collapse} from 'bootstrap'
+onMounted(() => {
+      /* FOR MOBILE ONLY */
+    if (window.matchMedia("(max-width: 991px)").matches) {
+      const navLinks = document.querySelectorAll('.nav-link')
+      const menuToggle = document.getElementById('navbarSupportedContent')
+      const bsCollapse = new Collapse(menuToggle, {toggle: false})
+      navLinks.forEach((l) => {
+      l.addEventListener('click', () => { bsCollapse.toggle() })
+      })
+    }
+})
 </script>
 
 <style scoped>

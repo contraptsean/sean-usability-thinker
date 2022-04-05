@@ -20,7 +20,9 @@ body {
     font-size: 5.5rem;
     background: linear-gradient(#447AB8, #00BFA6, #ffc0c0);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 #app .article h1,
@@ -30,6 +32,7 @@ body {
     font-size: 3rem;
     background: linear-gradient(#447AB8, #00BFA6, #ffc0c0);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -40,6 +43,7 @@ body {
     font-size: 4rem;
     background: linear-gradient(#447AB8, #00BFA6);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -71,6 +75,7 @@ body {
 #app .nav-link:hover {
     background: linear-gradient(to right, #ffc0c0, #00BFA6);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
