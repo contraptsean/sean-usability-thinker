@@ -1,7 +1,10 @@
 <template>
   <div class="making section" id="making-section">
     <div class="container">
-      <div class="row">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+
+
 
 
 
@@ -126,6 +129,7 @@
 </ProjectCardLeft>
 </div>
 <p class="display-6 text-center pt-5">For more little usability artifacts, you can <a href="https://instructsean.wordpress.com/">check out my last portfolio</a></p>
+        </div>
       </div> <!--row-->
     </div><!---contain-->
 </div><!--end section-->

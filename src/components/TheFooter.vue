@@ -4,7 +4,7 @@
     <div class="container-fluid bg-light">
         <div class="row  row-cols-1 row-cols-lg-3 p-5">
             <div class="col">
-                <p>Made with <i class="bi bi-balloon-heart"></i> by 🖐 for NN/g</p>
+                <p>Made with <i class="bi bi-balloon-heart"></i> by 🖐</p>
             </div>
             <div class="col">
                 <h5>Contact Me</h5>
@@ -19,7 +19,7 @@
 
                 <ul>
                     <li><a href="https://waxalchemical.hashnode.dev/rss.xml" target="_blank">RSS</a></li>
-                    <li><a href="" class="disabled">Youtube (Coming 04/03/22)</a></li>
+                    <!-- <li><a href="" class="disabled">Youtube (Coming 04/03/22)</a></li> -->
                     <li><a href="https://waxalchemical.hashnode.dev/">Blog - Wax Alchemical</a></li>
                 </ul>
             </div>
