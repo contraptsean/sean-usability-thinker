@@ -4,7 +4,11 @@
     <div class="case-study container mt-5">
     <div class="row pt-5 justify-content-center">
         <div class="col-lg-10">
+            <header>
             <h1>Morph Studio Case Study</h1>
+            <p class="lead"><a href="https://morph-studio.netlify.app/">https://morph-studio.netlify.app/</a></p>
+            </header>
+            <article>
             <p class="lead"><span class="text-muted">Summary:</span> This Case Study investigates the problem designing a hair studio site with mulitple dstylist, price scales, and service sets. </p>
 
 <h2>Introduction</h2>
@@ -51,6 +55,7 @@
 
 <p>This was the first time I had used Figma, and it was a moderately easy tool to use. I will probably use it or tools like it in the future rather than MS Paint.</p>
 
+</article>
         </div><!--col-->
     </div><!--row-->
 

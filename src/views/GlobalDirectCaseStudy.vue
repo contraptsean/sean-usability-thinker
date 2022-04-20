@@ -6,6 +6,7 @@
         <div class="col-lg-10">
             <header>
             <h1>Global Direct Case Study</h1>
+            <p class="lead"><a href="https://csuglobal.edu/direct/">https://csuglobal.edu/direct/</a></p>
             </header>
             <article>
             <p class="lead"><span class="text-muted">Summary:</span> This Case Study investigates the problem of creating a new pathway for students to take courses at CSU Global. It has been live for two months and has already has a measureable impact on the institution's financial strategy.</p>
