@@ -32,6 +32,7 @@
 
   <template #links>
 <RouterLink to="/global-direct-case-study" class="btn btn-outline-dark">See the Case Study </RouterLink>
+<a href="https://usability.notion.site/UX-Strategy-GD-Iteration-2-88eeba9540ad44619a16fcb18e8b83c2" class="btn btn-outline-dark ms-3">UX Strategy</a>
   </template>
 </ProjectCardLeft>
 
