@@ -31,8 +31,8 @@
   </template>
 
   <template #links>
-<RouterLink to="/global-direct-case-study" class="btn btn-outline-dark">See the Case Study </RouterLink>
-<a href="https://usability.notion.site/UX-Strategy-GD-Iteration-2-88eeba9540ad44619a16fcb18e8b83c2" class="btn btn-outline-dark ms-3">UX Strategy</a>
+<RouterLink to="/global-direct-case-study" class="btn btn-outline-dark">Case Study </RouterLink>
+<a href="https://usability.notion.site/UX-Strategy-GD-Iteration-2-88eeba9540ad44619a16fcb18e8b83c2" class="btn btn-outline-dark ms-3">Next Iteration Notes</a>
   </template>
 </ProjectCardLeft>
 
@@ -50,7 +50,7 @@
   </template>
 
   <template #links>
-<RouterLink to="/morph-studio-case-study" class="btn btn-outline-dark">See the Case Study </RouterLink>
+<RouterLink to="/morph-studio-case-study" class="btn btn-outline-dark">Case Study </RouterLink>
   </template>
 </ProjectCardRight>
 </div>
@@ -72,7 +72,7 @@
   </template>
 
   <template #brief>
-    <p>An Image-crushing application, and study in interface and interaction design. A Work in Progress for sure</p>
+    <p>An Image-crushing application, and study in interface and interaction design. A work in progress for sure</p>
   </template>
 
   <template #links>
