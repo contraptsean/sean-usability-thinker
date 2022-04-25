@@ -21,7 +21,7 @@
             <div class="card-body d-flex flex-column">
               <h5 class="card-title">25-75 FSU iSchool Storyteller Series</h5>
               <p class="card-text mb-auto">I was an invited speaker recently to speak about my time at the FSU School of Information</p>
-              <button href="https://youtu.be/pyabZN072Qo?t=1976" class="btn btn-outline-dark mt-5" >Go To Story</button>
+              <a href="https://youtu.be/pyabZN072Qo?t=1976" class="btn btn-outline-dark mt-5" >Go To Story</a>
             </div><!--card-body-->
           </div><!--card-->
 
