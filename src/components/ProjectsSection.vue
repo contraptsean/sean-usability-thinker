@@ -124,7 +124,7 @@
 
   <template #links>
       <ul>
-        <li><i class="bi bi-arrow-right-short me-1"></i><a href="https://dodeca-moth.netlify.app/">https://dodeca-moth.netlify.app/</a></li>
+        <li><i class="bi bi-arrow-right-short me-1"></i><a href="https://dodecamoth.netlify.app/">https://dodecamoth.netlify.app/</a></li>
       </ul>
   </template>
 </ProjectCardLeft>
