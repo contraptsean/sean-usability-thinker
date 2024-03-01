@@ -33,10 +33,11 @@ import {marked} from 'marked'
 const loading = ref(true)
 const props = defineProps(['slug'])
 async function gql(query, variables={}) {
-    const data = await fetch('https://api.hashnode.com/', {
+    const data = await fetch('https://waxalchemical.hashnode.dev/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
+            'Access-Control-Allow-Origin': 'allow',
         },
         body: JSON.stringify({
             query,
@@ -48,19 +49,22 @@ async function gql(query, variables={}) {
 }
 
 const GET_USER_ARTICLES = `
-    query GetUserArticles($slug: String!, $hostname: String!) {
-        post(
-        slug: $slug
-        hostname: $hostname
-        ) {  
-            title
-            coverImage
-            contentMarkdown
-        }
-        }
+query Publication {
+  publication(host: "https://waxalchemical.hashnode.dev/") {
+    isTeam
+    title
+    post(slug: $slug) {
+      title
+      content {
+        markdown
+        html
+      }
+    }
+  }
+}
 `;
 
-gql(GET_USER_ARTICLES, { slug: props.slug, hostname: "https://api.hashnode.com/" })
+gql(GET_USER_ARTICLES, { slug: props.slug, hostname: "https://waxalchemical.hashnode.dev/" })
     .then(result => 
     {
         document.getElementById('title').innerText = result.data.post.title;

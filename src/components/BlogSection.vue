@@ -12,17 +12,18 @@
         <div class="row">
           <div class="col-lg-4">
 
-              <img :src="article.coverImage" class="card-img-top" alt="...">
+              <img :src="article.node.coverImage.url" class="card-img-top" alt="...">
           </div>
           <div class="col-lg-8">
 
-            <h4 class="pt-3">{{article.title}}</h4>
+            <h4 class="pt-3">{{article.node.title}}</h4>
             
-            <p class="card-text text-muted">{{article.dateAdded}}</p>
+            <p class="card-text text-muted">{{article.node.publishedAt}}</p>
             
             <!-- <p class="card-text mb-auto">{{article.brief}}</p> -->
 
-            <router-link class="btn btn-outline-dark" :to="{ name: 'BlogContent', params: { slug: article.slug }, props: true}">Read More</router-link>
+            <!----<router-link class="btn btn-outline-dark" :to="{ name: 'BlogContent', params: { slug: article.node.slug }, props: true}">Read More</router-link>-->
+            <a class="btn btn-outline-dark" :href="article.node.url">Read More</a>
           </div>
           
 
@@ -40,7 +41,7 @@ import { ref } from "vue"
 const articleList = ref([])
 const loading = ref(true)
 async function gql(query, variables={}) {
-    const data = await fetch('https://api.hashnode.com/', {
+    const data = await fetch('https://gql.hashnode.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -54,29 +55,36 @@ async function gql(query, variables={}) {
 }
 
 const GET_USER_ARTICLES = `
-    query GetUserArticles($page: Int!) {
-        user(username: "contraptsean") {
-            publication {
-                posts(page: $page) {
-                    title
-                    brief
-                    slug
-                    coverImage
-                    dateAdded
-                    _id
-                }
-            }
-        }
+query Publication {
+  publication(host: "waxalchemical.hashnode.dev/") {
+    isTeam
+    title
+    posts(first: 10) {
+      edges {
+        node {
+          title
+          brief
+          url
+          publishedAt
+          slug
+          coverImage {
+      url
     }
+        }
+      }
+    }
+  }
+}
 `;
 
 gql(GET_USER_ARTICLES, { page: 0 })
     .then(result => {
-        const articles = result.data.user.publication.posts;
+        const articles = result.data.publication.posts;
+        console.log(articles);
         let container = document.createElement('div');
-        articles.forEach(article => {
-          article.dateAdded = article.dateAdded.split("T")[0].split("-");
-          article.dateAdded = article.dateAdded[1] + "." + article.dateAdded[2] + "." + article.dateAdded[0];
+        articles.edges.forEach(article => {
+          article.node.publishedAt = article.node.publishedAt.split("T")[0].split("-");
+          article.node.publishedAt = article.node.publishedAt[1] + "." + article.node.publishedAt[2] + "." + article.node.publishedAt[0];
           articleList.value.push(article);
           loading.value = false;
         })
