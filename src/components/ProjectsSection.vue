@@ -8,16 +8,34 @@
 
 
 
-<h2 class="text-center mb-0">Projects</h2>
+<h2 class="text-center mb-0">Case Studies & Projects</h2>
 <div class="recent">
-  <span class="recent-heading my-4">
+ <!--    <span class="recent-heading my-4">
     <span class="recent-highlight">
 
-  <h3 class="">Recent</h3>
+<h3 class="">Recent</h3>
     </span>
-  </span>
+  </span> -->
 
-  <ProjectCardLeft>
+  <ProjectCardRight>
+  <template #image>
+    <img src="@/assets/morph-thumb.png" class="w-100" />
+  </template>
+
+  <template #title>
+    <h4>Participant Satisfaction & Return of Research Story</h4>
+  </template>
+
+  <template #brief>
+    <p>This case study reviews a study I created and the resulting deliverable I designed as a result of the insights uncovered</p>
+  </template>
+
+  <template #links>
+<RouterLink to="/participant-satisfaction-case-study" class="btn btn-outline-dark">Case Study </RouterLink>
+  </template>
+</ProjectCardRight>
+
+<ProjectCardLeft>
   <template #image>
     <img src="@/assets/direct-macbook-prototype-thumb.png" class="w-100"  />
   </template>
@@ -56,12 +74,12 @@
 </div>
 
 <div class="in-progress">
-    <span class="in-progress-heading my-4">
+    <!-- <span class="in-progress-heading my-4">
     <span class="in-progress-highlight">
   <h3>In Progress</h3>
 
     </span>
-    </span>
+    </span> -->
   <ProjectCardLeft>
   <template #image>
     <img src="@/assets/pestle-wf-thumb.png" class="w-100" />
@@ -92,7 +110,7 @@
   </template>
 
   <template #brief>
-    <p>My latest project. I'm having big thoughts about how we manage our processes and how students get class materials in general. Here are some notes:</p>
+    <p>I was having big thoughts about how to manage processes and how students get class materials in general. Here are some notes:</p>
   </template>
 
   <template #links>
@@ -104,11 +122,11 @@
 </ProjectCardRight>
 </div>
 <div class="extra">
-    <span class="extra-heading my-4">
+    <!-- <span class="extra-heading my-4">
     <span class="extra-highlight">
   <h3>Extra</h3>
     </span>
-    </span>
+    </span> -->
     <ProjectCardLeft>
   <template #image>
     <img src="@/assets/dodeca-thumb.png" class="w-100" />

@@ -9,7 +9,7 @@
             <p class="lead"><a href="https://csuglobal.edu/direct/">https://csuglobal.edu/direct/</a></p>
             </header>
             <article>
-            <p class="lead"><span class="text-muted">Summary:</span> This Case Study investigates the problem of creating a new pathway for students to take courses at CSU Global. It has been live for two months and has already has a measureable impact on the institution's financial strategy.</p>
+            <p class="lead"><span class="text-muted">Summary:</span> This Case Study investigates the problem of creating a new pathway for students to take courses at CSU Global. It has been live for two months (at the time of writing) and has already has a measureable impact on the institution's financial strategy.</p>
 <h2>Introduction</h2>
 
 <p>My institution had tried many times to utilize courses outside of a degree program to generate revenue, but had thusfar been unsuccessful. I was asked to work with stakeholders from the new Digital Learning department to create a solution that would work for our institution and our students.</p>
