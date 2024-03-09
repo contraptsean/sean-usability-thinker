@@ -22,7 +22,7 @@
             
             <!-- <p class="card-text mb-auto">{{article.brief}}</p> -->
 
-            <!----<router-link class="btn btn-outline-dark" :to="{ name: 'BlogContent', params: { slug: article.node.slug }, props: true}">Read More</router-link>-->
+            <router-link class="btn btn-outline-light" :to="{ name: 'BlogContent', params: { slug: article.node.slug }, props: true}">Read More</router-link>
             <a class="btn btn-outline-dark" :href="article.node.url">Read More</a>
           </div>
           
