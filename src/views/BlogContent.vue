@@ -32,12 +32,12 @@ import { ref } from "vue"
 import {marked} from 'marked'
 const loading = ref(true)
 const props = defineProps(['slug'])
+console.log(props.slug)
 async function gql(query, variables={}) {
-    const data = await fetch('https://waxalchemical.hashnode.dev/', {
+    const data = await fetch('https://gql.hashnode.com/', {
         method: 'POST',
         headers: {
-            'Content-Type': 'application/json',
-            'Access-Control-Allow-Origin': 'allow',
+            'Content-Type': 'application/json'
         },
         body: JSON.stringify({
             query,
@@ -49,12 +49,16 @@ async function gql(query, variables={}) {
 }
 
 const GET_USER_ARTICLES = `
-query Publication {
-  publication(host: "https://waxalchemical.hashnode.dev/") {
+
+query Publication($slug: String!) {
+  publication(host: "waxalchemical.hashnode.dev") {
     isTeam
     title
     post(slug: $slug) {
       title
+      coverImage {
+        url
+    }
       content {
         markdown
         html
@@ -64,12 +68,14 @@ query Publication {
 }
 `;
 
-gql(GET_USER_ARTICLES, { slug: props.slug, hostname: "https://waxalchemical.hashnode.dev/" })
+gql(GET_USER_ARTICLES, { slug: props.slug, host: "waxalchemical.hashnode.dev" })
     .then(result => 
     {
-        document.getElementById('title').innerText = result.data.post.title;
-        document.getElementById('cover-image').src = result.data.post.coverImage;
-        document.getElementById('content').innerHTML = marked(result.data.post.contentMarkdown);
+      console.log(result.data.publication.post);
+
+        document.getElementById('title').innerText = result.data.publication.post.title;
+        document.getElementById('cover-image').src = result.data.publication.post.coverImage.url;
+        document.getElementById('content').innerHTML = marked(result.data.publication.post.content.markdown);
         loading.value = false;
 
         
