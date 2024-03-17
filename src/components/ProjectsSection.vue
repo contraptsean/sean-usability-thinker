@@ -19,7 +19,7 @@
 
   <ProjectCardRight>
   <template #image>
-    <img src="@/assets/morph-thumb.png" class="w-100" />
+    <img src="@/assets/ror-desktop-frame-thumb.png" class="w-100" />
   </template>
 
   <template #title>

@@ -9,7 +9,7 @@
             <p class="lead"><a href="https://www.figma.com/proto/7VeEN6rgNMHRftC9JYtF9z/ROResearch-Story?page-id=0%3A1&type=design&node-id=6-1365&viewport=-3919%2C470%2C0.39&t=2ExNCpvlz6NCtYlG-1&scaling=min-zoom&starting-point-node-id=1%3A5595&mode=design">"Return of Research Story" Prototype</a></p>
             </header>
             <article>
-            <p class="lead"><span class="text-muted">Summary:</span> lorem ipsum.</p>
+            <p class="lead"><span class="text-muted">Summary:</span> I designed research to answer important research questions that resulted in developing new types of valuable deliverables for the organization that moved Key Performance Indicators.</p>
 <h2>Introduction</h2>
 
 <p>As the Senior Usability Strategist at the All of Us research program, I was tasked broadly with studying participant satisfaction. In this case study, I outline the methodology and findings in creating this study to understand participant satisfaction, and how it might apply to program goals. In addition it will discuss the resulting implementation of changes aimed at improving retention goals for the program.</p>
