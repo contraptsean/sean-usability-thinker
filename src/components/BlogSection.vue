@@ -1,6 +1,6 @@
 <template>
   <div class="blog section" id="blog-section">
-    <h2 class="mb-5 text-center">Blog</h2>
+    <h2 class="mb-5 text-center">Thoughts</h2>
     <div class="container">
       <div class="mt-5 pt-5 d-flex justify-content-center" v-if="loading">
         <div class="dots-bars-9"></div>

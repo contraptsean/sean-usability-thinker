@@ -28,6 +28,24 @@ const router = createRouter({
                 import ('../views/GlobalDirectCaseStudy.vue')
         },
         {
+            path: '/research-story-case-study',
+            name: 'research-story-case-study',
+            // route level code-splitting
+            // this generates a separate chunk (About.[hash].js) for this route
+            // which is lazy-loaded when the route is visited.
+            component: () =>
+                import ('../views/ResearchStoryCaseStudy.vue')
+        },
+        {
+            path: '/astro-report',
+            name: 'astro-report',
+            // route level code-splitting
+            // this generates a separate chunk (About.[hash].js) for this route
+            // which is lazy-loaded when the route is visited.
+            component: () =>
+                import ('../views/AstroReport.vue')
+        },
+        {
             path: '/morph-studio-case-study',
             name: 'morph-studio-case-study',
             // route level code-splitting

@@ -14,53 +14,77 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/* body {
+	background: linear-gradient(-45deg, #23d5ab, #c0f9ff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
 h1.main-heading {
-    font-weight: 800;
+    font-weight: 500;
     padding-bottom: 1rem;
-    font-size: 5.5rem;
-    background: linear-gradient(#447AB8, #00BFA6, #ffc0c0);
+    font-size: 5rem;
+    background: linear-gradient(#447AB8, #00BFA6, hsl(144, 35%, 37%));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
+    font-family: 'Abril Fatface', serif;
+
 }
 
 .article h1,
 .case-study h1 {
-    font-weight: 700;
+    font-weight: 500;
     padding-bottom: 1rem;
     font-size: 3rem;
     background: linear-gradient(#447AB8, #00BFA6, #ffc0c0);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: 'Abril Fatface', serif;
+
 }
 
 .home h2 {
     margin: 4rem 0px;
-    font-weight: 700;
+    font-weight: 500;
     padding-bottom: 1rem;
     font-size: 4rem;
     background: linear-gradient(#447AB8, #00BFA6);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-family: 'Abril Fatface', serif;
 }
 
 .home h3 {
     font-size: 2rem;
-    font-family: 'Palanquin', sans-serif;
+    font-family: 'Abril Fatface', serif;
 }
 
 #app h4,
-#app h5 {
-    font-family: 'Palanquin', sans-serif;
+#app h5,
+.navbar-brand {
+    font-family: 'Abril Fatface', serif;
 }
 
 #app p,
 #app ul,
 #app ol {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Karla', sans-serif;
     font-size: 1.1rem;
 }
 
@@ -105,9 +129,11 @@ h1.main-heading {
 .case-study img {
     border: 1px solid #ccc;
     margin-bottom: 3rem;
-    max-width: 800px;
-    max-width: 600px;
     display: block;
+}
+
+.blog.article img {
+    max-width:80vw;
 }
 
 .blog.article h2 {

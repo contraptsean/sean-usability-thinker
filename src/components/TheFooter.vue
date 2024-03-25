@@ -4,7 +4,9 @@
     <div class="container-fluid bg-light">
         <div class="row  row-cols-1 row-cols-lg-3 p-5">
             <div class="col">
-                <p>Made with <i class="bi bi-balloon-heart"></i> by 🖐</p>
+                <p>Made with <i class="bi bi-balloon-heart"></i> by Me :)<i class="bi bi-emoji-grimace"></i></p>
+  
+                
             </div>
             <div class="col">
                 <h5>Contact Me</h5>
@@ -47,5 +49,6 @@ footer {
     }
     
 }
+
 
 </style>

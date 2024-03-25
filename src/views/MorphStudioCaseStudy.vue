@@ -35,7 +35,7 @@
 </ul>
 <h2>Process</h2>
 
-<p>As usual, I started with seeking to understand my "users" (I try not to use that word) or audience, and how they might utilize the website, which this time was very different than the user set of my job at my </p>institution.
+<p>As usual, I started with seeking to understand my "users" (I try not to use that word) or audience, and how they might utilize the website, which this time was very different than the user set of my job at my institution.</p>
 
 <p>Ubiquitously I found that potential clients wanted to utilize the site on their phone, and while I should build out a beautiful desktop experience, I needed to focus on the mobile performance, particularly since my stakeholders would later request a video header.</p>
 

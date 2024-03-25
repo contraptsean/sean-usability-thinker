@@ -1,13 +1,16 @@
 
 <template>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container-fluid">
     <router-link class="visually-hidden-focusable bg-grey" 
         to="#main-content" 
         @click="$emit('scrollFix','#main-content')">Skip to main content</router-link>
     <RouterLink to="/" class="d-flex align-items-center me-5 navbar-brand">
-          <i class="fs-4 me-3 bi bi-wrench-adjustable-circle"></i>
-          <span class="fs-4">Sean's Portfolio</span>
+          <!-- <i class="fs-4 me-3 bi bi-wrench-adjustable-circle"></i> -->
+          
+          <img class="ms-3" width="40" height="40" src="@/assets/sean-logo.svg" />
+          <span class="fs-5 text-dark">Sean Hogan</span>
+
     </RouterLink>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,22 +18,22 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0">
 
         <li class="nav-item">
-          <RouterLink class="nav-link" to="/#about-me">Introduction</RouterLink>
+          <!-- <RouterLink class="nav-link" to="/#about-me">Introduction</RouterLink> -->
         </li>
         <li class="nav-item">
-          <RouterLink class="nav-link" to="/#making-section">Projects</RouterLink>
+          <RouterLink class="nav-link" to="/#strategy-section">Strategy</RouterLink>
           </li>
         <li class="nav-item">
-          <RouterLink class="nav-link" to="/#speaking-section">Speaking</RouterLink>
+          <RouterLink class="nav-link" to="/#research-section">Research</RouterLink>
           </li>
         <li class="nav-item">
-          <RouterLink class="nav-link" to="/#teaching-section">Teaching</RouterLink>
+          <RouterLink class="nav-link" to="/#design-section">Design</RouterLink>
           </li>
         <li class="nav-item">
-          <RouterLink class="nav-link" to="/#blog-section">Blog</RouterLink>
+          <RouterLink class="nav-link" to="/#blog-section">Thoughts</RouterLink>
           </li>
         
         
