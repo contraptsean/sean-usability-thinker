@@ -1,57 +1,48 @@
 <template>
 <header class="introduction" id="about-me">
 
-<div class="container col-xl-10 col-xxl-8 px-4 py-5">
-    <div class="row align-items-center g-lg-5 py-5">
-      <div class="col-lg-7 text-center text-lg-start">
-        <h1 class="main-heading">Welcome to my digital garden</h1>
-       
-        <p class="col-lg-9 fs-4">A place for my projects to grow</p>
-      </div>
-      <div class="col-md-10 mx-auto col-lg-5">
-        <img class="w-100" src="@/assets/undraw_thought_process.svg" />
-      </div>
+	<span class="star-right animate-appear delay-3"><img src="@/assets/star-1.svg" alt=""></span>
+	<span class="star-left animate-appear delay-3"><img src="@/assets/star-1.svg" alt=""></span>
+  <div class="px-4 py-5 my-5 text-center ">
+
+
+    <h1 class="mt-5 animate animate-pop animate-fade">Hi. I'm Sean.<br/>
+        A Strategist.</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4animate animate-pop animate-fade delay-1">I'm passionate about crafting experiences that are engaging, accessible, and user-centric.</p>
     </div>
   </div>
+
 </header>
 </template>
 <style scoped>
-.introduction {
-  height:90vh;
-}
-.text-decoration-underline {
-  text-decoration-color: #00BFA6!important;
-}
-.highlight-container, .highlight {
-  position: relative;
-}
-.highlight-container{
 
-  display: inline-block;
+.star-right {
+	position: absolute;
+	right: 10%;
+    top: 30%;
 }
-.highlight-container:before,
-.highlight-container:after{
-    content: ' ';
-    display: block;
-    height: 90%;
-    width: 100%;
-    margin-left: -3px;
-    margin-right: -3px;
-    position: absolute;
+
+.star-left {
+	position: absolute;
+	right: 80%;
+    top: 20%;
 }
-.highlight-container:before{
-    background: rgba(68,122,184,0.1);
-    transform: rotate(2deg);
-    top: -1px;
-    left: -1px;
+/* header {
+	background: linear-gradient(-45deg, #6780b0, #c0f9ff, #6780b0, #6780b0);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
-  .highlight-container:after {
-    background: rgba(68,122,184,0.2);
-    top: 3px;
-    right: -2px;
-}
-  .highlight {
-    color: #333;
-    z-index: 4;
-  }
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
 </style>

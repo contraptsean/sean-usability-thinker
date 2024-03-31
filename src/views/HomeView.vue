@@ -12,6 +12,6 @@ import BlogSection from '@/components/BlogSection.vue'
     <StrategySection />
     <ResearchSection />
     <DesignSection />
-    <BlogSection />
+    <!-- <BlogSection /> -->
   </main>
 </template>

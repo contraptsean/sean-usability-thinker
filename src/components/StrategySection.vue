@@ -1,163 +1,102 @@
 <template>
-  <div class="strategy section" id="strategy-section">
+  <div class="strategy section animate-pop animate-fade delay-2" id="strategy-section">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-10">
+        <div class="col">
+          <h2 class="text-left mb-0">Strategy</h2>
+          <p class="lead mb-5">Helping organizations use data to make the best decisions</p>
+
+          <div class="row gx-5">
+
+            <div class="col-xl-7 col-lg-6">
+              <RouterLink to="/research-story-case-study" class="card text-dark bg-pink lg-card">
+                <div class="card-flourish text-end px-5">
+                  <p class="card-text pt-5">National Institute of Health</p>
+                  <h3 class="card-title">Research Highlights Story</h3>
+                  <div class="inner">
+                    <img src="@/assets/research-story.png" class="" />
+                  </div>
+                </div>
+              </RouterLink><!--/card-->
+            </div><!--/col-->
 
 
+            <div class="col-xl-5 col-lg-6">
+              <RouterLink to="/global-direct-case-study" class="card text-dark bg-green sm-card">
+                <div class="card-flourish text-end px-5">
+                  <p class="card-text pt-5">Colorado State</p>
+                  <h3 class="card-title">Global Direct</h3>
+                  <div class="inner">
+                    <img src="@/assets/direct-macbook-prototype-thumb.png" class="align-self-end" />
+                  </div>
+                </div>
+              </RouterLink><!--/card-->
+            </div><!--/col-->
 
+          </div><!--row-->
 
-
-<h2 class="text-center">Strategy</h2>
-<div class="recent">
- <!--    <span class="recent-heading my-4">
-    <span class="recent-highlight">
-
-<h3 class="">Recent</h3>
-    </span>
-  </span> -->
-
-  <ProjectCardRight>
-  <template #image>
-    <img src="@/assets/research-story.png" class="w-100" />
-  </template>
-
-  <template #title>
-    <h4>Research Highlights Story</h4>
-  </template>
-
-  <template #brief>
-    <p>This case study reviews a story I designed for participant engagement</p>
-  </template>
-
-  <template #links>
-<RouterLink to="/research-story-case-study" class="btn btn-outline-dark">Case Study </RouterLink>
-  </template>
-</ProjectCardRight>
-
-<ProjectCardLeft>
-  <template #image>
-    <img src="@/assets/direct-macbook-prototype-thumb.png" class="w-100"  />
-  </template>
-
-  <template #title>
-    <h4>Global Direct</h4>
-  </template>
-
-  <template #brief>
-    <p>Created a digital pathway and services for accessing individual courses in online higher education. Resulted in a catalog front, admin interface for the courses and enrollments, a portal back-end, new workflows for the main degree pathway, and additional revenue streams</p>
-  </template>
-
-  <template #links>
-<RouterLink to="/global-direct-case-study" class="btn btn-outline-dark">Case Study </RouterLink>
-<!-- <a href="https://usability.notion.site/UX-Strategy-GD-Iteration-2-88eeba9540ad44619a16fcb18e8b83c2" class="btn btn-outline-dark ms-3">Next Iteration Notes</a> -->
-  </template>
-</ProjectCardLeft>
-
-</div>
-
-<div class="in-progress">
-   
-</div>
-<div class="extra">
-   
-</div>
-
-        </div>
+        </div><!--col-->
       </div> <!--row-->
     </div><!---contain-->
-</div><!--end section-->
+  </div><!--end section-->
+
 </template>
 
 
 <script setup>
-import ProjectCardLeft from './ProjectCardLeft.vue'
-import ProjectCardRight from './ProjectCardRight.vue'
+
 
 </script>
 <style scoped>
-.in-progress h3 {
-  text-align: right;
-}
-ul {
-  list-style-type: none;
-  padding-left:0px;
-}
-img {
-  object-fit: cover!important;
-}
-img.thumb {
-  width: 711px;
+.card {
   height: 400px;
+  border-radius: 3rem;
+  overflow: hidden;
+  opacity: .9;
+  transition: all .2s;
+  text-decoration: none;
 }
 
-.recent-heading, 
-.recent-highlight,
-.in-progress-heading, 
-.in-progress-highlight,
-.extra-heading, 
-.extra-highlight {
+.card:hover {
+  transform: translate3d(0, -5px, 0);
+  opacity: 1
+}
+
+.card .inner {
+  transition: all .5s;
+  transform: translate3d(0, -.5rem, 0)
+}
+
+.card:hover .inner {
+  transform: translate3d(0, .5rem, 0);
+  transition: all .5s;
+}
+
+.card:active {
+  transform: translateZ(0);
+  box-shadow: none;
+  transition: all .5;
+}
+
+.card.sm-card img {
+  max-width: 600px;
   position: relative;
+  top: 1rem;
+  left: -1.5rem;
 }
-.recent-heading,
-.in-progress-heading, 
-.extra-heading {
-  display: inline-block;
+
+.card.lg-card img {
+  max-width: 1000px;
+  position: relative;
+  top: 1rem;
+  left: -4rem;
 }
-.recent-heading:before,
-.recent-heading:after,
-.in-progress-heading:before,
-.in-progress-heading:after,
-.extra-heading:before,
-.extra-heading:after {
-    content: ' ';
-    display: block;
-    height: 90%;
-    width: 100%;
-    margin-left: -3px;
-    margin-right: -3px;
-    position: absolute;
+
+.bg-pink {
+  background-color: papayawhip;
 }
-.recent-heading:before{
-    background: rgba(242,122,242,0.1);
-    transform: rotate(2deg);
-    top: -1px;
-    left: -1px;
+
+.bg-green {
+  background-color: mintcream;
 }
-  .recent-heading:after {
-    background: rgba(242,122,242,0.2);
-    top: 3px;
-    right: -2px;
-}
-.in-progress-heading:before{
-    background: rgba(0,191,166,0.1);
-    transform: rotate(-3deg);
-    top: -1px;
-    left: -1px;
-}
-  .in-progress-heading:after {
-    background: rgba(0,191,166,0.2);
-    top: 3px;
-    right: -2px;
-}
-.extra-heading:before{
-    background: rgba(68,122,184,0.1);
-    transform: rotate(2deg);
-    top: -1px;
-    left: -1px;
-}
-  .extra-heading:after {
-    background: rgba(68,122,184,0.2);
-    top: 3px;
-    right: -2px;
-}
-  .recent-highlight,
-  .in-progress-highlight,
-  .extra-highlight {
-    color: #333;
-    z-index: 4;
-  }
-  .display-6 {
-    font-size: 1.3rem!important;
-  }
 </style>

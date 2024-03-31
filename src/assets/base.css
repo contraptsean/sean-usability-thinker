@@ -6,110 +6,122 @@
     position: relative;
     font-weight: normal;
 }
+/* opening animation */
+@media screen and (prefers-reduced-motion: reduce) {
+    .animate { animation: none !important; }
+  }
 
-body {
+.animate-fade {
+    animation-duration: 0.3s;
+    animation-name: animate-fade;
+    animation-fill-mode: backwards;
+}
+
+.animate-appear {
+    animation-duration: 0.5s;
+    animation-name: animate-fade;
+    animation-fill-mode: backwards;
+}
+
+.animate-pop {
+    animation-duration: 0.3s;
+    animation-name: animate-pop;
+    animation-fill-mode: backwards;
+}
+
+@keyframes animate-fade {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  @keyframes animate-pop {
+    0% { transform:translate(0, -20px);
+        opacity: 0; }
+    100% { transform:translate(0);
+        opacity:1; }
+  }
+
+.delay-1 { animation-delay: 0.2s; }  
+.delay-2 { animation-delay: 0.5s; }
+.delay-3 { animation-delay: 0.8s; }
+
+html body {
     min-height: 100vh;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #3a568d;
 }
 
-/* body {
-	background: linear-gradient(-45deg, #23d5ab, #c0f9ff);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-}
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-} */
-
-h1.main-heading {
-    font-weight: 500;
+#app h1 {
+    font-family: "Audiowide", sans-serif;
+    font-weight: 700;
     padding-bottom: 1rem;
-    font-size: 5rem;
-    background: linear-gradient(#447AB8, #00BFA6, hsl(144, 35%, 37%));
+    font-size: 6.5rem;
+    /* background: linear-gradient(#447AB8, #00BFA6, hsl(144, 35%, 37%));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    color: transparent;
-    font-family: 'Abril Fatface', serif;
+    color: transparent; */
+    color:#CDDEFE;
 
 }
 
-.article h1,
-.case-study h1 {
-    font-weight: 500;
-    padding-bottom: 1rem;
-    font-size: 3rem;
-    background: linear-gradient(#447AB8, #00BFA6, #ffc0c0);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Abril Fatface', serif;
-
-}
-
-.home h2 {
+#app h2 {
     margin: 4rem 0px;
     font-weight: 500;
     padding-bottom: 1rem;
     font-size: 4rem;
-    background: linear-gradient(#447AB8, #00BFA6);
+    /* background: linear-gradient(#447AB8, #00BFA6);
     -webkit-background-clip: text;
     background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Abril Fatface', serif;
+    -webkit-text-fill-color: transparent; */
+    font-family: "Audiowide", sans-serif;
+    color:#CDDEFE;
 }
+
+#app .lead {
+    font-family: "Maitree", sans-serif;
+    color:#fff;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+
+
+}
+
+
+#app h3,
+#app h4,
+#app h5
+{
+    font-family: "Mirza", sans-serif;
+  }
+  @supports (font-variation-settings: normal) {
+    :root { font-family: "Mirza", sans-serif; }
+  }
+
+
 
 .home h3 {
     font-size: 2rem;
-    font-family: 'Abril Fatface', serif;
 }
 
-#app h4,
-#app h5,
-.navbar-brand {
-    font-family: 'Abril Fatface', serif;
-}
 
 #app p,
 #app ul,
 #app ol {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Maitree', sans-serif;
     font-size: 1.1rem;
 }
 
-#app .btn {
-    border-radius: 0px;
-}
+
+
 
 .introduction {
     margin-top: 70px;
 }
 
-#app .nav-link:hover {
-    background: linear-gradient(to right, #ffc0c0, #00BFA6);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-#app .navbar-brand {
-    color: #ddd;
-}
-
-#app .navbar-brand:hover {
-    color: #fff;
-}
 
 #app .article blockquote {
     margin-left: 2rem;
@@ -117,12 +129,55 @@ h1.main-heading {
     border-left: #00BFA6 5px solid;
 }
 
-#app .card-img-top,
 #app .card {
-    border-radius: 0px;
+    border:none;
 }
 
+/* case study styles  */
 
+#app .case-study  h2 {
+        text-decoration: underline;
+        margin-bottom: 0px;    
+        font-family: "Mirza", sans-serif;
+        line-height: 1;
+
+    }
+
+#app .case-study  h1 {
+    font-size:5rem;
+    text-align: center;    
+}
+
+#app .case-study h3 {
+        font-size:1.25rem;
+        color:#CDDEFE
+    }
+#app .case-study  img {
+        border: 1px solid #ccc;
+        margin-bottom:3rem;
+    }
+#app .case-study  p,
+#app .case-study  li,
+#app .case-study  p {
+        font-size:1.1rem;
+        color:#fff;
+    }
+#app .case-study a {
+    color:#CDDEFE;
+    font-weight: 500;
+}
+
+#app .case-study a:hover {
+    color:#fff;
+}
+
+#app .case-study span.text-muted {
+    color: #cddefe!important;
+}
+
+#app .case-study img {
+    max-width:100%;
+}
 /* blog stylez */
 
 .blog.article img,

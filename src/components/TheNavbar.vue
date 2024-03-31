@@ -1,28 +1,16 @@
 
 <template>
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<nav class="navbar navbar-expand-lg fixed-top mt-2">
   <div class="container-fluid">
     <router-link class="visually-hidden-focusable bg-grey" 
         to="#main-content" 
         @click="$emit('scrollFix','#main-content')">Skip to main content</router-link>
-    <RouterLink to="/" class="d-flex align-items-center me-5 navbar-brand">
-          <!-- <i class="fs-4 me-3 bi bi-wrench-adjustable-circle"></i> -->
-          
-          <img class="ms-3" width="40" height="40" src="@/assets/sean-logo.svg" />
-          <span class="fs-5 text-dark">Sean Hogan</span>
-
-    </RouterLink>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto me-3 mb-2 mb-lg-0">
-
-        <li class="nav-item">
-          <!-- <RouterLink class="nav-link" to="/#about-me">Introduction</RouterLink> -->
-        </li>
+    <div class="collapse navbar-collapse justify-content-md-center">
+      <ul class="navbar-nav px-5">
         <li class="nav-item">
           <RouterLink class="nav-link" to="/#strategy-section">Strategy</RouterLink>
           </li>
@@ -30,25 +18,12 @@
           <RouterLink class="nav-link" to="/#research-section">Research</RouterLink>
           </li>
         <li class="nav-item">
-          <RouterLink class="nav-link" to="/#design-section">Design</RouterLink>
+          <RouterLink class="nav-link" to="/#engineering-section">Engineering</RouterLink>
           </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <RouterLink class="nav-link" to="/#blog-section">Thoughts</RouterLink>
-          </li>
-        
-        
+        </li> -->
       </ul>
-      <div class="d-flex text-white connect-links">
-        <ul class="navbar-nav">
-               <li class="nav-item">
-                  <a href="https://www.linkedin.com/in/sean-hogan-00159610a/"><i class="bi bi-linkedin me-2"></i></a>
-               </li>
-               <li class="nav-item">
-                  <a href="https://waxalchemical.hashnode.dev/rss.xml"><i class="bi bi-rss-fill me-2"></i></a>
-               </li>
-        </ul>
-
-      </div>
     </div>
   </div>
 </nav>
@@ -59,7 +34,22 @@
 import { RouterLink } from 'vue-router'
 import { onMounted } from 'vue'
 import {Collapse} from 'bootstrap'
+
 onMounted(() => {
+let nav = document.querySelector(".navbar-nav");
+window.onscroll = function () {
+  console.log(window.pageYOffset)
+  if (window.pageYOffset > 50) {
+    // @ts-ignore
+    nav.classList.add("scrolled");
+    console.log('yes')
+
+  } else {
+    // @ts-ignore
+    nav.classList.remove("scrolled");
+    console.log('no')
+  }
+}
       /* FOR MOBILE ONLY */
     if (window.matchMedia("(max-width: 991px)").matches) {
       const navLinks = document.querySelectorAll('.nav-link')
@@ -70,26 +60,53 @@ onMounted(() => {
       })
     }
 })
+
 </script>
 
 <style scoped>
-.connect-links .navbar-nav .nav-item a {
-  color:#00BFA6;
+
+.navbar-nav {
+    border-radius: 50px;
+    transition: all .2s linear;
+    gap:2rem;
 }
-.connect-links .navbar-nav .nav-item a:hover {
-  color: #ccc!important;
-}
-.visually-hidden-focusable {
-  position:absolute;
-  background:#ccc;
-  left:10%;
-  padding:2rem;
-  transform: translateY(-100%);
-  transition: transform 0.3s;
-  z-index:1;
+.navbar-nav.scrolled {
+transition: all .2s ease-in-out;
+background-color: rgba(36, 64, 120, .6);
+backdrop-filter: blur(5px);
 }
 
-.visually-hidden-focusable:focus {
-  transform: translateY(0%);
+ul{
+    border-radius: 50px;
+    transition: all .2s linear;
 }
+
+
+a,button{
+    border-radius: var(--24px);
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    font-weight:600;
+    color: #cddefe;
+
+}
+
+a:hover{
+  color: #fff;
+}
+
+.nav-item::before {
+  transition: 300ms;
+  height: 2px;
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  width: 0%;
+  bottom: 5px;
+  border-radius: 5px;
+}
+.nav-item:hover::before {
+  width: 100%;
+}
+
 </style>

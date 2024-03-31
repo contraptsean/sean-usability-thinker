@@ -108,17 +108,5 @@ But Instead the process had to be closer to:
 </template>
 
 <style scoped>
-h2 {
-    text-decoration: underline;    
-}
-h3 {
-    font-size:1.25rem;
-}
-img {
-    border: 1px solid #ccc;
-    margin-bottom:3rem;
-}
-p {
-    font-size:1.1rem;
-}
+
     </style>

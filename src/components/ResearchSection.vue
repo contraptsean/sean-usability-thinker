@@ -1,154 +1,108 @@
+
+
 <template>
-  <div class="research section" id="research-section">
+  <div class="research section mt-5" id="research-section">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-10">
+        <div class="col">
+          <h2 class="text-left mb-0">Research</h2>
+          <p class="lead mb-5">Uncovering insights that shape the product</p>
+
+          <div class="row gx-5">
+            <div class="col-xl-5 col-lg-6">
+              <RouterLink to="/astro-report" class="card text-dark bg-blue sm-card">
+                <div class="card-flourish text-end px-5">
+                  <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
+                  <p class="card-text pt-5">Task Analysis</p>
+                  <h3 class="card-title">Astro</h3>
+                  <div class="inner">
+                    <img src="@/assets/astro-thumb.png" class="align-self-end" />
+                  </div>
+                </div>
+              </RouterLink><!--/card-->
+            </div><!--/col-->
+
+
+            <div class="col-xl-7 col-lg-6">
+              <RouterLink to="/participant-satisfaction-case-study" class="card text-dark bg-purple lg-card">
+                <div class="card-flourish text-end px-5">
+                  <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
+                  <p class="card-text pt-5">National Institute of Health</p>
+                  <h3 class="card-title">Participant Motivation</h3>
+                  <div class="inner">
+                    <img src="@/assets/dashboard-wireframe.png" class="" />
+                  </div>
+                </div>
+              </RouterLink><!--/card-->
+            </div><!--/col-->
 
 
 
 
+          </div><!--row-->
 
-<h2 class="text-center">Research</h2>
-<div class="recent">
-
-
-  <ProjectCardRight>
-  <template #image>
-    <img src="@/assets/dashboard-wireframe.png" class="w-75" />
-  </template>
-
-  <template #title>
-    <h4>Participant Satisfaction & Motivation</h4>
-  </template>
-
-  <template #brief>
-    <p>This case study reviews research I wrote which changed the narrative on participant satisfaction and motivation</p>
-  </template>
-
-  <template #links>
-<RouterLink to="/participant-satisfaction-case-study" class="btn btn-outline-dark">Case Study </RouterLink>
-  </template>
-</ProjectCardRight>
-
-
-</div>
-
-
-  
-    <ProjectCardLeft>
-  <template #image>
-    <img src="@/assets/astro-thumb.png" class="w-100" />
-  </template>
-
-  <template #title>
-    <h4>Task Analysis Report: Astro</h4>
-  </template>
-
-  <template #brief>
-    <p>A Task Analysis I ran on the Astro Homepage</p>
-  </template>
-
-  <template #links>
-    <RouterLink to="/astro-report" class="btn btn-outline-dark">Analysis Report</RouterLink>
-
-  </template>
-</ProjectCardLeft>
-
-        </div>
+        </div><!--col-->
       </div> <!--row-->
     </div><!---contain-->
-</div><!--end section-->
+  </div><!--end section-->
+
 </template>
 
 
 <script setup>
-import ProjectCardLeft from './ProjectCardLeft.vue'
-import ProjectCardRight from './ProjectCardRight.vue'
+
 
 </script>
 <style scoped>
-.in-progress h3 {
-  text-align: right;
-}
-ul {
-  list-style-type: none;
-  padding-left:0px;
-}
-img {
-  object-fit: cover!important;
-}
-img.thumb {
-  width: 711px;
+.card {
   height: 400px;
+  border-radius: 3rem;
+  overflow: hidden;
+  opacity: .9;
+  transition: all .2s;
+  text-decoration: none;
 }
 
-.recent-heading, 
-.recent-highlight,
-.in-progress-heading, 
-.in-progress-highlight,
-.extra-heading, 
-.extra-highlight {
+.card:hover {
+  transform: translate3d(0, -5px, 0);
+  opacity: 1
+}
+
+.card .inner {
+  transition: all .5s;
+  transform: translate3d(0, -.5rem, 0)
+}
+
+.card:hover .inner {
+  transform: translate3d(0, .5rem, 0);
+  transition: all .5s;
+}
+
+.card:active {
+  transform: translateZ(0);
+  box-shadow: none;
+  transition: all .5;
+}
+
+.card.sm-card img {
+  max-width: 600px;
   position: relative;
+  top: 1rem;
+  left: -1.5rem;
 }
-.recent-heading,
-.in-progress-heading, 
-.extra-heading {
-  display: inline-block;
+
+.card.lg-card img {
+  max-width: 1000px;
+  position: relative;
+  top: 1rem;
+  left: 4rem;
 }
-.recent-heading:before,
-.recent-heading:after,
-.in-progress-heading:before,
-.in-progress-heading:after,
-.extra-heading:before,
-.extra-heading:after {
-    content: ' ';
-    display: block;
-    height: 90%;
-    width: 100%;
-    margin-left: -3px;
-    margin-right: -3px;
-    position: absolute;
+
+.bg-purple {
+  background-color: plum;
 }
-.recent-heading:before{
-    background: rgba(242,122,242,0.1);
-    transform: rotate(2deg);
-    top: -1px;
-    left: -1px;
+
+.bg-blue {
+  background-color: powderblue;
 }
-  .recent-heading:after {
-    background: rgba(242,122,242,0.2);
-    top: 3px;
-    right: -2px;
-}
-.in-progress-heading:before{
-    background: rgba(0,191,166,0.1);
-    transform: rotate(-3deg);
-    top: -1px;
-    left: -1px;
-}
-  .in-progress-heading:after {
-    background: rgba(0,191,166,0.2);
-    top: 3px;
-    right: -2px;
-}
-.extra-heading:before{
-    background: rgba(68,122,184,0.1);
-    transform: rotate(2deg);
-    top: -1px;
-    left: -1px;
-}
-  .extra-heading:after {
-    background: rgba(68,122,184,0.2);
-    top: 3px;
-    right: -2px;
-}
-  .recent-highlight,
-  .in-progress-highlight,
-  .extra-highlight {
-    color: #333;
-    z-index: 4;
-  }
-  .display-6 {
-    font-size: 1.3rem!important;
-  }
 </style>

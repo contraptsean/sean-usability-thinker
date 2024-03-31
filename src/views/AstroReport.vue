@@ -1,5 +1,5 @@
 <template>
-    <main id="main-content">
+<main id="main-content">
 <div class="case-study container mt-5">
 <div class="row pt-5 justify-content-center">
 <div class="col-lg-10">
@@ -10,13 +10,12 @@
 <p></p>
 <article id="content">
 <h2 id="introduction">Introduction</h2>
-<p>Developers use frameworks like <a
-        href="https://astro.build/">Astro</a> to build web spaces,
+<p>Developers use frameworks like <a href="https://astro.build/">Astro</a> to build web
+    spaces,
     quickly. </p>
 <p>I’m on these types of sites about every day when I'm developing:</p>
 <ul>
-    <li><a
-            href="https://getbootstrap.com/">https://getbootstrap.com/</a>
+    <li><a href="https://getbootstrap.com/">https://getbootstrap.com/</a>
     </li>
     <li><a href="https://vuejs.org/">https://vuejs.org/</a></li>
 </ul>
@@ -151,7 +150,8 @@
     And something <em>very interesting</em> happened here. No one
     watched it. It wasn’t fast enough. When faced with these loading
     elements, everyone seemed to look at the loading spinners for a
-    second and read the next section.</p>
+    second and read the next section.
+</p>
 <h3 id="on-wayfinding">on wayfinding</h3>
 <blockquote>
     <p>At least this get started button worked... and now I don’t know
@@ -283,8 +283,7 @@
     does this well. They don’t really bother trying to explain the whole
     of Jamstack ecosystem and why you might use the product on the
     homepage. The do have a giant docs button:</p>
-<p>That takes you to some really <a
-        href="https://www.11ty.dev/docs/">well explained
+<p>That takes you to some really <a href="https://www.11ty.dev/docs/">well explained
         documentation</a> with a great search function. The next page is
     a glossary to help familiarize users with the nomenclature eleventy
     uses.</p>
@@ -295,8 +294,8 @@
     should be. The information space should help users learn and
     understand this message as easily as possible. </p>
 <p>Some of the most valuable space on the site is at the beginning of
-    the home page. Many framework sites <a
-        href="https://nuxtjs.org/">like this one for Nuxt</a> have
+    the home page. Many framework sites <a href="https://nuxtjs.org/">like this one for
+        Nuxt</a> have
     architectures what this message seems to be as the first three sort
     of slides or 100% view width sections of the site, being:</p>
 <ol>
@@ -353,20 +352,5 @@
 </template>
 
 <style scoped>
-h2 {
-    text-decoration: underline;
-}
 
-h3 {
-    font-size: 1.25rem;
-}
-
-img {
-    border: 1px solid #ccc;
-    margin-bottom: 3rem;
-}
-
-p {
-    font-size: 1.1rem;
-}
 </style>

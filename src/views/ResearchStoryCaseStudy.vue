@@ -6,7 +6,7 @@
         <div class="col-lg-10">
             <header>
             <h1>Research Highlight Story</h1>
-            <p class="lead"><a href="https://www.figma.com/proto/7VeEN6rgNMHRftC9JYtF9z/ROResearch-Story?page-id=0%3A1&type=design&node-id=6-1365&viewport=-3919%2C470%2C0.39&t=2ExNCpvlz6NCtYlG-1&scaling=min-zoom&starting-point-node-id=1%3A5595&mode=design">"Research Highlights Story" Prototype</a></p>
+            <p class="lead"><a href="https://www.figma.com/proto/7VeEN6rgNMHRftC9JYtF9z/ROResearch-Story?page-id=0%3A1&type=design&node-id=1-5595&viewport=402%2C259%2C0.33&t=UFax9nSD6ya9p28E-1&scaling=scale-down&starting-point-node-id=1%3A5595&mode=design">"Research Highlights Story" Prototype</a></p>
             </header>
             <article>
             <p class="lead"><span class="text-muted">Summary:</span> I designed research to answer important research questions that resulted in developing new types of valuable deliverables for the organization that moved Key Performance Indicators.</p>
@@ -39,17 +39,5 @@
 </template>
 
 <style scoped>
-h2 {
-    text-decoration: underline;    
-}
-h3 {
-    font-size:1.25rem;
-}
-img {
-    border: 1px solid #ccc;
-    margin-bottom:3rem;
-}
-p {
-    font-size:1.1rem;
-}
+
     </style>

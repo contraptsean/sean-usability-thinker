@@ -9,7 +9,7 @@
             <p class="lead"><a href="https://morph-studio.netlify.app/">https://morph-studio.netlify.app/</a></p>
             </header>
             <article>
-            <p class="lead"><span class="text-muted">Summary:</span> This Case Study investigates the problem designing a hair studio site with mulitple dstylist, price scales, and service sets. </p>
+            <p class="lead"><span class="text-muted">Summary:</span> This Case Study investigates the problem designing a hair studio site with mulitple stylists, price scales, and service sets. </p>
 
 <h2>Introduction</h2>
 
@@ -64,17 +64,5 @@
 </template>
 
 <style scoped>
-h2 {
-    text-decoration: underline;    
-}
-h3 {
-    font-size:1.25rem;
-}
-img {
-    border: 1px solid #ccc;
-    margin-bottom:3rem;
-}
-p {
-    font-size:1.1rem;
-}
+
 </style>
