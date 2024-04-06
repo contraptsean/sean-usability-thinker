@@ -41,9 +41,10 @@
         opacity:1; }
   }
 
-.delay-1 { animation-delay: 0.2s; }  
-.delay-2 { animation-delay: 0.5s; }
-.delay-3 { animation-delay: 0.8s; }
+.delay { animation-delay: 0.2s; }  
+.delay-1 { animation-delay: 0.4s; }  
+.delay-2 { animation-delay: .8s; }
+.delay-3 { animation-delay: 1s; }
 
 html body {
     min-height: 100vh;
@@ -67,6 +68,19 @@ html body {
     color:#CDDEFE;
 
 }
+
+/* title responsive sizing */
+@media screen and (min-width: 800px) {
+    #app h1 {
+      font-size: 6.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    #app h1 {
+      font-size: 3rem;
+    }
+  }
 
 #app h2 {
     margin: 4rem 0px;

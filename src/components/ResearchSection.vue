@@ -8,8 +8,8 @@
           <h2 class="text-left mb-0">Research</h2>
           <p class="lead mb-5">Uncovering insights that shape the product</p>
 
-          <div class="row gx-5">
-            <div class="col-xl-5 col-lg-6">
+          <div class="row gx-5 gy-4">
+            <div class="col-xl-5 col-lg-6 col-12">
               <RouterLink to="/astro-report" class="card text-dark bg-blue sm-card">
                 <div class="card-flourish text-end px-5">
                   <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
@@ -23,7 +23,7 @@
             </div><!--/col-->
 
 
-            <div class="col-xl-7 col-lg-6">
+            <div class="col-xl-7 col-lg-6 col-12">
               <RouterLink to="/participant-satisfaction-case-study" class="card text-dark bg-purple lg-card">
                 <div class="card-flourish text-end px-5">
                   <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->

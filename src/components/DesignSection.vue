@@ -8,7 +8,7 @@
           <h2 class="text-left mb-0">Engineering</h2>
           <p class="lead mb-5">Making things with web technologies</p>
 
-          <div class="row gx-5 gy-5">
+          <div class="row gx-5 gy-4">
 
             <div class="col-xl-4 col-12">
               <a href="https://pe5tle.netlify.app/" class="card text-dark bg-pink lg-card">

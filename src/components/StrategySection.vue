@@ -6,9 +6,9 @@
           <h2 class="text-left mb-0">Strategy</h2>
           <p class="lead mb-5">Helping organizations use data to make the best decisions</p>
 
-          <div class="row gx-5">
+          <div class="row gx-5 gy-4">
 
-            <div class="col-xl-7 col-lg-6">
+            <div class="col-xl-7 col-lg-6 col-12">
               <RouterLink to="/research-story-case-study" class="card text-dark bg-pink lg-card">
                 <div class="card-flourish text-end px-5">
                   <p class="card-text pt-5">National Institute of Health</p>
@@ -21,7 +21,7 @@
             </div><!--/col-->
 
 
-            <div class="col-xl-5 col-lg-6">
+            <div class="col-xl-5 col-lg-6 col">
               <RouterLink to="/global-direct-case-study" class="card text-dark bg-green sm-card">
                 <div class="card-flourish text-end px-5">
                   <p class="card-text pt-5">Colorado State</p>
