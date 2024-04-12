@@ -1,7 +1,7 @@
 
 
 <template>
-  <div class="research section mt-5" id="research-section">
+  <div class="research section mt-5 animate animate-pop animate-fade delay-1" id="research-section">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col">

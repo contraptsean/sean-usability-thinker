@@ -1,7 +1,7 @@
 
 
 <template>
-  <div class="engineering section mt-5" id="engineering-section">
+  <div class="engineering section mt-5 animate animate-pop animate-fade delay-1" id="engineering-section">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col">

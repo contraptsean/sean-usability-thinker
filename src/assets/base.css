@@ -162,26 +162,37 @@ html body {
     text-align: center;    
 }
 
-#app .case-study h3 {
+#app .case-study h3,
+#app .blog.article h3 {
         font-size:1.25rem;
         color:#CDDEFE
     }
+
+#app .case-study h4,
+#app .blog.article h4 {
+    font-size:1.25rem;
+    color:#fff
+}
+
 #app .case-study  img {
         border: 1px solid #ccc;
         margin-bottom:3rem;
     }
 #app .case-study  p,
 #app .case-study  li,
-#app .case-study  p {
+#app .blog.article  p,
+#app .blog.article  li {
         font-size:1.1rem;
         color:#fff;
     }
-#app .case-study a {
+#app .case-study a,
+#app .blog.article a {
     color:#CDDEFE;
     font-weight: 500;
 }
 
-#app .case-study a:hover {
+#app .case-study a:hover,
+#app .blog.article a:hover {
     color:#fff;
 }
 
@@ -203,6 +214,7 @@ html body {
 
 .blog.article img {
     max-width:80vw;
+    max-height: 80vh;
 }
 
 .blog.article h2 {

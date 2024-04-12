@@ -1,5 +1,5 @@
 <template>
-  <div class="strategy section animate-pop animate-fade delay-2" id="strategy-section">
+  <div class="strategy section animate animate-pop animate-fade delay-1" id="strategy-section">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col">

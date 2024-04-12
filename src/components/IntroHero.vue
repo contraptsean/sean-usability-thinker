@@ -7,9 +7,9 @@
 
 
     <h1 class="mt-5 animate animate-pop animate-fade delay">Hi. I'm Sean.<br/>
-        A Strategist.</h1>
+        UX Strategist.</h1>
     <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4animate animate-pop animate-fade delay-1">I'm passionate about crafting experiences that are engaging, accessible, and user-centric.</p>
+      <p class="lead mb-4 animate animate-pop animate-fade delay-1">I'm passionate about crafting experiences that are engaging, accessible, and user-centric.</p>
     </div>
   </div>
 

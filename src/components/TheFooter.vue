@@ -1,6 +1,6 @@
 
 <template>
-<footer class="footer mt-5" id="footer">
+<footer class="footer mt-5 animate animate-pop animate-fade delay-2" id="footer">
     <div class="container-fluid">
         <div class="row row-cols-1 row-cols-lg-3 p-5 mt-5">
             <div class="col">

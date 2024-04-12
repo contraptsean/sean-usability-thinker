@@ -1,45 +1,54 @@
 <template>
-  <div class="blog section" id="blog-section">
-    <h2 class="mb-5 text-center">Thoughts</h2>
+  <div class="blog section pt-5" id="blog-section">
+    <h2 class="mb-5 text-center animate animate-pop animate-fade delay">Blog</h2>
     <div class="container">
-      <div class="mt-5 pt-5 d-flex justify-content-center" v-if="loading">
+      <!-- <div class="mt-5 pt-5 d-flex justify-content-center" v-if="loading">
         <div class="dots-bars-9"></div>
-      </div>
-      <div v-else>
-    <div class="blog-container row justify-content-center">
+      </div> -->
+      <!-- <div v-else> -->
+    <div class="blog-container row justify-content-center animate animate-pop animate-fade delay-1 g-3">
       
-      <div class="col-lg-10 mb-3 border border-dark px-0" v-for="article in articleList" :key="article._id">
-        <div class="row">
-          <div class="col-lg-4">
+      <div class="col-lg-6" v-for="article in articleList" :key="article._id">
+
+              <RouterLink :to="{ name: 'BlogContent', params: { slug: article.node.slug }, props: true}" class="card text-dark bg-pink lg-card">
+                <div class="card-flourish text-end px-5">
+                  <p class="card-text pt-5">{{article.node.publishedAt}}</p>
+                  <h3 class="card-title">{{article.node.title}}</h3>
+                  <div class="inner">
+                    <img :src="article.node.coverImage.url" class="" />
+                  </div>
+                </div>
+              </RouterLink><!--/card-->
+
+
+
+          <!-- <div class="col-lg-4">
 
               <img :src="article.node.coverImage.url" class="card-img-top" alt="...">
-          </div>
-          <div class="col-lg-8">
+          </div> -->
+          <!-- <div class="col-lg-8">
 
             <h4 class="pt-3">{{article.node.title}}</h4>
             
             <p class="card-text text-muted">{{article.node.publishedAt}}</p>
             
-            <!-- <p class="card-text mb-auto">{{article.brief}}</p> -->
 
             <router-link class="btn btn-outline-dark" :to="{ name: 'BlogContent', params: { slug: article.node.slug }, props: true}">Read More</router-link>
-<!--             <a class="btn btn-outline-dark" :href="article.node.url">Read More</a>
- -->          </div>
+         </div> -->
           
 
-          </div><!--contentrow.-->
       </div><!--/col-->
 
       </div> <!--row-->
       </div><!--else-->
     </div><!--containt-->
-  </div><!--section-->
+  <!-- </div>section -->
 </template>
 
 <script setup>
 import { ref } from "vue"
 const articleList = ref([])
-const loading = ref(true)
+// const loading = ref(true)
 async function gql(query, variables={}) {
     const data = await fetch('https://gql.hashnode.com', {
         method: 'POST',
@@ -86,18 +95,72 @@ gql(GET_USER_ARTICLES, { page: 0 })
           article.node.publishedAt = article.node.publishedAt.split("T")[0].split("-");
           article.node.publishedAt = article.node.publishedAt[1] + "." + article.node.publishedAt[2] + "." + article.node.publishedAt[0];
           articleList.value.push(article);
-          loading.value = false;
+          // loading.value = false;
         })
 
     });
 </script>
 
 <style>
-.card,
-.btn {
-  border-radius: 0px;;
+.blog {
+  min-height:100vh;
 }
 
+.card {
+  height: 400px;
+  border-radius: 3rem;
+  overflow: hidden;
+  opacity: .9;
+  transition: all .2s;
+  text-decoration: none;
+}
+
+.card:hover {
+  transform: translate3d(0, -5px, 0);
+  opacity: 1
+}
+
+.card .inner {
+  transition: all .5s;
+  transform: translate3d(0, -.5rem, 0)
+}
+
+.card:hover .inner {
+  transform: translate3d(0, .5rem, 0);
+  transition: all .5s;
+}
+
+.card:active {
+  transform: translateZ(0);
+  box-shadow: none;
+  transition: all .5;
+}
+
+.card.sm-card img {
+  max-width: 400px;
+  position: relative;
+  top: 1rem;
+  left: -1.5rem;
+}
+
+.card.lg-card img {
+  max-width: 500px;
+  position: relative;
+  top: 1rem;
+  left: -4rem;
+}
+
+.bg-pink {
+  background-color: papayawhip;
+}
+
+.bg-green {
+  background-color: mintcream;
+}
+
+.inner {
+  width:10px;
+}
 .dots-bars-9 {
   width: 40px;
   height: 40px;

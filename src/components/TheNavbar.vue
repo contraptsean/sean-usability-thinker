@@ -1,6 +1,6 @@
 
 <template>
-<nav class="navbar navbar-expand-lg fixed-top mt-2">
+<nav class="navbar navbar-expand-lg fixed-top mt-2 animate animate-fade">
   <div class="container-fluid">
     <router-link class="visually-hidden-focusable bg-grey" 
         to="#main-content" 
@@ -20,9 +20,9 @@
         <li class="nav-item">
           <RouterLink class="nav-link" to="/#engineering-section">Engineering</RouterLink>
           </li>
-        <!-- <li class="nav-item">
-          <RouterLink class="nav-link" to="/#blog-section">Thoughts</RouterLink>
-        </li> -->
+        <li class="nav-item">
+          <RouterLink class="nav-link" to="/blog">Blog</RouterLink>
+        </li>
       </ul>
     </div>
   </div>

@@ -55,12 +55,18 @@ const router = createRouter({
                 import ('../views/MorphStudioCaseStudy.vue')
         },
         {
+            path: '/blog',
+            name: 'BlogSection',
+            component: () =>
+                import ('../views/BlogSection.vue'),
+        },
+        {
             path: '/blog/:slug',
             name: 'BlogContent',
             props: route => ({ slug: route.params.slug }),
             component: () =>
                 import ('../views/BlogContent.vue'),
-        },
+        }
     ],
     scrollBehavior(to, from, savedPosition) {
         if (savedPosition) {
