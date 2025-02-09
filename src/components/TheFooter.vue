@@ -4,7 +4,7 @@
     <div class="container-fluid">
         <div class="row row-cols-1 row-cols-lg-3 p-5 mt-5">
             <div class="col">
-                <p>© 2025 Sean Hogan made with <i class="bi bi-balloon-heart"></i>(and vue)</p>
+                <p>© 2025 Sean Hogan<i class="bi bi-balloon-heart"></i></p>
   
                 
             </div>
