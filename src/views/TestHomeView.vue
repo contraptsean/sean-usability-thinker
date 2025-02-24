@@ -4,13 +4,17 @@ import StrategySection from '@/components/StrategySection.vue'
 import ResearchSection from '@/components/ResearchSection.vue'
 import DesignSection from '@/components/DesignSection.vue'
 </script>
+<script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
 
 <template>
 <main id="main-content" class="home">
-        <!--chatbot code-->
-    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
-<script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
-<df-messenger
+
+    <IntroHero />
+    <StrategySection />
+    <ResearchSection />
+    <DesignSection />
+
+    <df-messenger
   project-id="snappy-frame-451217-g8"
   agent-id="bc04858e-07e3-47b8-8d25-c2a3866b687a"
   language-code="en"
@@ -19,6 +23,10 @@ import DesignSection from '@/components/DesignSection.vue'
    chat-title="seans-portfolio-chatbot">
   </df-messenger-chat-bubble>
 </df-messenger>
+<link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+
+  </main>
+</template>
 <style>
   df-messenger {
     z-index: 999;
@@ -32,11 +40,3 @@ import DesignSection from '@/components/DesignSection.vue'
     right: 16px;
   }
 </style>
-
-   <!--chatbot code-->
-    <IntroHero />
-    <StrategySection />
-    <ResearchSection />
-    <DesignSection />
-  </main>
-</template>
