@@ -55,6 +55,15 @@ const router = createRouter({
                 import ('../views/SeansResume.vue')
         },
         {
+            path: '/test',
+            name: 'test-home-view',
+            // route level code-splitting
+            // this generates a separate chunk (About.[hash].js) for this route
+            // which is lazy-loaded when the route is visited.
+            component: () =>
+                import ('../views/TestHomeView.vue')
+        },
+        {
             path: '/morph-studio-case-study',
             name: 'morph-studio-case-study',
             // route level code-splitting
