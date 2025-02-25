@@ -12,16 +12,45 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Maitree:wght@200;300;400;500;600;700&family=Mirza:wght@400;500;600;700&display=swap" rel="stylesheet">
     <meta name="google-site-verification" content="YxY-6KxC5HCTystr2KmGJqFNWTXBdowZcFH83Kpxhd0" />
-    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
 
 
 
-    <title>Sean Hogan ◦ UX Strategist</title>
+    <title>Sean Hogan ◦ UX Architect & Strategist</title>
 </head>
 
 <body id="main">
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+
+    <df-messenger
+  project-id="snappy-frame-451217-g8"
+  agent-id="bc04858e-07e3-47b8-8d25-c2a3866b687a"
+  language-code="en"
+  max-query-length="-1">
+  <df-messenger-chat-bubble
+   chat-title="seans-portfolio-chatbot">
+  </df-messenger-chat-bubble>
+</df-messenger>
+<link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+
+
+
 </body>
+<style>
+    df-messenger {
+      z-index: 999;
+      position: fixed;
+      --df-messenger-font-color: #000;
+      --df-messenger-font-family: Google Sans;
+      --df-messenger-chat-background: #f3f6fc;
+      --df-messenger-message-user-background: #d3e3fd;
+      --df-messenger-message-bot-background: #fff;
+      bottom: 16px;
+      right: 16px;
+    }
+  </style>
+  
 
 </html>
