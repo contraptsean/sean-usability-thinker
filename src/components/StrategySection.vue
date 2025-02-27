@@ -12,7 +12,7 @@
               <RouterLink to="/research-story-case-study" class="card text-dark bg-pink lg-card">
                 <div class="card-flourish text-end px-5">
                   <p class="card-text pt-5">National Institute of Health</p>
-                  <h3 class="card-title">Research Highlights Story</h3>
+                  <h3 class="card-title">Developing a new type of reward</h3>
                   <div class="inner">
                     <img src="@/assets/research-story.png" class="" />
                   </div>
@@ -25,7 +25,7 @@
               <RouterLink to="/global-direct-case-study" class="card text-dark bg-green sm-card">
                 <div class="card-flourish text-end px-5">
                   <p class="card-text pt-5">Colorado State</p>
-                  <h3 class="card-title">Global Direct</h3>
+                  <h3 class="card-title">How I made a million dollars</h3>
                   <div class="inner">
                     <img src="@/assets/direct-macbook-prototype-thumb.png" class="align-self-end" />
                   </div>
