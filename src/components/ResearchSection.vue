@@ -3,20 +3,22 @@
 <template>
   <div class="research section mt-5 animate animate-pop animate-fade delay-1" id="research-section">
     <div class="container">
+
       <div class="row justify-content-center">
         <div class="col">
           <h2 class="text-left mb-0">Research</h2>
           <p class="lead mb-5">Uncovering insights that shape the product</p>
 
           <div class="row gx-5 gy-4">
+
             <div class="col-xl-5 col-lg-6 col-12">
-              <RouterLink to="/astro-report" class="card text-dark bg-blue sm-card">
+              <RouterLink to="/new-orleans-bingo-case-study" class="card text-dark bg-blue sm-card">
                 <div class="card-flourish text-end px-5">
                   <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
-                  <p class="card-text pt-5">Task Analysis</p>
-                  <h3 class="card-title">Astro</h3>
+                  <p class="card-text pt-5">National Institute of Health</p>
+                  <h3 class="card-title">Inventing a new research method</h3>
                   <div class="inner">
-                    <img src="@/assets/astro-thumb.png" class="align-self-end" />
+                    <img src="@/assets/undraw_whiteboard.png" class="align-self-end" />
                   </div>
                 </div>
               </RouterLink><!--/card-->
@@ -28,18 +30,48 @@
                 <div class="card-flourish text-end px-5">
                   <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
                   <p class="card-text pt-5">National Institute of Health</p>
-                  <h3 class="card-title">Participant Motivation</h3>
+                  <h3 class="card-title">Changing the biggest bets of the program</h3>
                   <div class="inner">
-                    <img src="@/assets/dashboard-wireframe.png" class="" />
+                    <img src="@/assets/undraw_data.png" class="" />
                   </div>
                 </div>
               </RouterLink><!--/card-->
             </div><!--/col-->
 
 
-
-
           </div><!--row-->
+
+          <div class="row gx-5 gy-4 mt-3">
+
+
+
+
+<div class="col-xl-7 col-lg-6 col-12">
+  <RouterLink to="/participant-satisfaction-case-study" class="card text-dark bg-pink lg-card">
+    <div class="card-flourish text-end px-5">
+      <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
+      <p class="card-text pt-5">National Institute of Health</p>
+      <h3 class="card-title">Understanding participant motivation</h3>
+      <div class="inner">
+        <img src="@/assets/dashboard-wireframe.png" class="" />
+      </div>
+    </div>
+  </RouterLink><!--/card-->
+</div><!--/col-->
+<div class="col-xl-5 col-lg-6 col-12">
+  <RouterLink to="/astro-report" class="card text-dark bg-green sm-card">
+    <div class="card-flourish text-end px-5">
+      <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
+      <p class="card-text pt-5">Task Analysis</p>
+      <h3 class="card-title">Foundational Astro insights</h3>
+      <div class="inner">
+        <img src="@/assets/astro-thumb.png" class="align-self-end" />
+      </div>
+    </div>
+  </RouterLink><!--/card-->
+</div><!--/col-->
+
+</div><!--row-->
 
         </div><!--col-->
       </div> <!--row-->
@@ -104,5 +136,13 @@
 
 .bg-blue {
   background-color: powderblue;
+}
+
+.bg-pink {
+  background-color: papayawhip;
+}
+
+.bg-green {
+  background-color: mintcream;
 }
 </style>

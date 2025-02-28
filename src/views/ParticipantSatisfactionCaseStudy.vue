@@ -5,7 +5,7 @@
     <div class="row pt-5 justify-content-center">
         <div class="col-lg-10">
             <header>
-            <h1>Participant Motivation</h1>
+            <h1>Understanding Participant Motivation</h1>
 
             </header>
             <article>

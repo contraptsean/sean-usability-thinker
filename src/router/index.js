@@ -19,6 +19,18 @@ const router = createRouter({
                 import ('../views/ParticipantSatisfactionCaseStudy.vue')
         },
         {
+            path: '/new-orleans-bingo-case-study',
+            name: 'new-orleans-bingo-case-study',
+            component: () =>
+                import ('../views/NewOrleansBingoCaseStudy.vue')
+        },
+        {
+            path: '/trust-and-value-case-study',
+            name: 'trust-and-value-case-study',
+            component: () =>
+                import ('../views/TrustAndValueCaseStudy.vue')
+        },
+        {
             path: '/global-direct-case-study',
             name: 'global-direct-case-study',
             // route level code-splitting

@@ -5,7 +5,7 @@
     <div class="row pt-5 justify-content-center">
         <div class="col-lg-10">
             <header>
-            <h1>How I Made a Million (with Global Direct)</h1>
+            <h1>How I Made a Million :with Global Direct</h1>
             </header>
             <article>
             <p class="lead"><a href="https://csuglobal.edu/direct/">Global Direct</a> is one of the most impactful projects I’ve worked on—creating a new way for students to take courses outside of a traditional degree program. It’s been live for several months now, and the results speak for themselves. Not only has it transformed how students engage with the university, but it’s also had a measurable impact on the institution’s financial strategy.</p>
