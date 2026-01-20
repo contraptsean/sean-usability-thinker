@@ -8,8 +8,8 @@ import DesignSection from '@/components/DesignSection.vue'
 <template>
 <main id="main-content" class="home">
     <IntroHero />
-    <ResearchSection />
     <StrategySection />
+    <ResearchSection />
     <DesignSection />
   </main>
 </template>

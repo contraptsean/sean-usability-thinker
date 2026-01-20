@@ -3,7 +3,7 @@
 <main id="main-content">
     <div class="case-study container mt-5">
     <div class="row pt-5 justify-content-center">
-        <div class="col-lg-10">
+        <div class="col-lg-8">
             <header>
             <h1>Morph Studio Case Study</h1>
             <p class="lead"><a href="https://morph-studio.netlify.app/">https://morph-studio.netlify.app/</a></p>

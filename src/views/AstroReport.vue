@@ -2,7 +2,7 @@
 <main id="main-content">
 <div class="case-study container mt-5">
 <div class="row pt-5 justify-content-center">
-<div class="col-lg-10">
+<div class="col-lg-8">
 <header>
 <h1 class="mb-5 display-1" id="title">UX Report: Astro at Lightspeed</h1>
 </header>

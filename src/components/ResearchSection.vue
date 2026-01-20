@@ -26,16 +26,16 @@
 
 
             <div class="col-xl-7 col-lg-6 col-12">
-              <RouterLink to="/participant-satisfaction-case-study" class="card text-dark bg-purple lg-card">
-                <div class="card-flourish text-end px-5">
-                  <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
-                  <p class="card-text pt-5">National Institute of Health</p>
-                  <h3 class="card-title">Changing the biggest bets of the program</h3>
-                  <div class="inner">
-                    <img src="@/assets/undraw_data.png" class="" />
-                  </div>
-                </div>
-              </RouterLink><!--/card-->
+              <RouterLink to="/participant-satisfaction-case-study" class="card text-dark bg-pink lg-card">
+    <div class="card-flourish text-end px-5">
+      <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
+      <p class="card-text pt-5">National Institute of Health</p>
+      <h3 class="card-title">Understanding participant motivation</h3>
+      <div class="inner">
+        <img src="@/assets/dashboard-wireframe.png" class="" />
+      </div>
+    </div>
+  </RouterLink><!--/card-->
             </div><!--/col-->
 
 
@@ -47,18 +47,6 @@
 
 
 <div class="col-xl-7 col-lg-6 col-12">
-  <RouterLink to="/participant-satisfaction-case-study" class="card text-dark bg-pink lg-card">
-    <div class="card-flourish text-end px-5">
-      <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
-      <p class="card-text pt-5">National Institute of Health</p>
-      <h3 class="card-title">Understanding participant motivation</h3>
-      <div class="inner">
-        <img src="@/assets/dashboard-wireframe.png" class="" />
-      </div>
-    </div>
-  </RouterLink><!--/card-->
-</div><!--/col-->
-<div class="col-xl-5 col-lg-6 col-12">
   <RouterLink to="/astro-report" class="card text-dark bg-green sm-card">
     <div class="card-flourish text-end px-5">
       <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
@@ -69,6 +57,10 @@
       </div>
     </div>
   </RouterLink><!--/card-->
+</div><!--/col-->
+
+<div class="col-xl-5 col-lg-6 col-12">
+
 </div><!--/col-->
 
 </div><!--row-->

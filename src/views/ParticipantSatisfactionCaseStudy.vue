@@ -3,7 +3,7 @@
 <main id="main-content">
     <div class="case-study article container mt-5">
     <div class="row pt-5 justify-content-center">
-        <div class="col-lg-10">
+        <div class="col-lg-8">
             <header>
             <h1>Understanding Participant Motivation</h1>
 

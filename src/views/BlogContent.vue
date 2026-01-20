@@ -6,7 +6,7 @@
       <div v-show="!loading">
     <div class="container mt-5">
       <div class="row justify-content-center pt-5">
-        <div class="col-lg-10">
+        <div class="col-lg-8">
           <img src="" class="card-img-top" alt="..." id="cover-image">
           <main id="main-content">
           <header>

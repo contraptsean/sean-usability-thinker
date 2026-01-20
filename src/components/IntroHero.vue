@@ -6,10 +6,9 @@
   <div class="px-4 py-5 my-5 text-center ">
 
 
-    <h1 class="mt-5 animate animate-pop animate-fade delay">Hi. I'm Sean.<br/>
-        UX Architect.</h1>
+    <h1 class="mt-5 animate animate-pop animate-fade delay">Hi. I'm Sean.</h1>
     <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4 animate animate-pop animate-fade delay-1">I'm passionate about crafting experiences that are engaging, accessible, and user-centric.</p>
+      <p class="lead mb-4 animate animate-pop animate-fade delay-1">I’m a UX researcher and service designer who works on complex services where operations, technology, and human experience intersect.</p>
     </div>
   </div>
 

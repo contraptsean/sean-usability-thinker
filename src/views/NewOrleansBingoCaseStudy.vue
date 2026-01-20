@@ -3,7 +3,7 @@
 <main id="main-content">
     <div class="case-study article container mt-5">
     <div class="row pt-5 justify-content-center">
-        <div class="col-lg-10">
+        <div class="col-lg-8">
             <header>
             <h1>Inventing a New Research Method: New Orleans Bingo</h1>
             </header>
@@ -22,7 +22,7 @@
 <p>From my conversations, it became clear that frontline staff had deep, experience-based knowledge about participant concerns. They weren’t just following a script, they were engaging with real people and hearing their doubts and concerns firsthand.</p>
 
 <p>To take this a step further, I ran a simple but effective exercise. I gave staff a magic wand and asked:</p>
-<p><b><i>If you could change anything about the intake, onboarding, or participation process, what would it be?</i></b></p>
+<blockquote><p>If you could change anything about the intake, onboarding, or participation process, what would it be?</p></blockquote>
 <p>Their responses helped shape a list of potential improvements that we could explore further.</p>
 
 
