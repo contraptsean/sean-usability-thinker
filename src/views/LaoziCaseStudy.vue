@@ -37,109 +37,36 @@
 <p>I also looked at failures that were effectively invisible. If someone didn’t pay or left the freezer open, the system provided no immediate signal to the customer or the operator. These silent failures accumulated over time as shrink, spoilage, or operational loss, without a clear moment to intervene.</p>
 
 <h2>Design Opportunities</h2>
-<p>From this research, a clear pattern emerged. Issues happened at moments where the service required commitment, such as choosing a price, sending payment, closing the freezer, without giving customers enough clarity, closure, or feedback. In staffed contexts, these moments are smoothed over by human reassurance. In this model, design artifacts had to do that work instead.</p>
+<p>From this research, a pattern of breakdowns emerged which occurred at moments where the service required commitment such as: choosing a price, sending payment, closing the freezer. The solution could be providing enough clarity, closure, or feedback. In the absence of staff, design artifacts needed to take on the role of reassurance and correction. Fascinating.</p>
 
-<p>Rather than recommending surveillance, staffing, or punitive controls, I framed design opportunities around reducing ambiguity and reinforcing trust. This included clarifying the sequence of actions, strengthening price anchoring, providing clearer payment closure cues, and introducing lightweight physical and sensory feedback to prevent operational failures (like the freezer being left open):</p>
 
-<h3>Issue 1: People don’t understand the process or pricing</h3>
-<p><b>Causes:</b></p>
-<ul>
-<li>Cognitive overload</li>
-<li>Poor sequencing</li>
-<li>Price ambiguity (a sizing switch caused some confusion)</li>
-</ul>
-
-<p><b>Opportunities:</b></p>
-<p>Clear, process instructions and step‑by‑step payment framing:</p>
-        <ol>
-            <li>Choose your ice cream</li>
-            <li>Close the freezer</li>
-            <li>Pay $26 per container via Venmo</li>
-            <li>Enjoy!</li>
-        </ol>
-    
-<p>Stronger price anchoring</p>
-        <ul>
-        <li>Moving to a single size and price will make for easier payment and logistics</li>
-        </ul>
-
-<p>Instruction Hierarchy</p>
-        <ul>
-            <li>Multiple signs and instructions were confusing</li>
-            <li>Moving several sets of instruction and messaging around the freezer and payment process into one place, process and message</li>
-        </ul>
+<p>Rather than introducing surveillance, staffing, or punitive controls, I focused on opportunities that reduced ambiguity while reinforcing trust and making correct behavior easier.</p>
 
 
 
+<h3>Issue: Confusion Around Process and Pricing</h3>
+
+<p>Customers hesitated when trying to understand how the service worked and how much ice cream cost. Multiple instructions, unclear sequencing, and a recent sizing change increased cognitive load and uncertainty.</p>
+
+<p>An opportunity here was to simplify the service into a clear, linear flow that mirrored how a staff member might explain it. Lessining price confusion by moving to a single size and price, and consolidating instructions into one clearly prioritized message reduced the need for interpretation and guesswork.</p>
 
 
-<h3>Issue 2: Theft or underpayment</h3>
-<p><b>Causes:</b></p>
-<ul>
-<li>Unclear expectations</li>
-<li>Payment friction</li>
-<li>Lack of closure</li>
-<li>Perceived anonymity</li>
-</ul>
+<h3>Issue: Underpayment and Missed Payments</h3>
+
+<p>Instances of underpayment appeared driven more by uncertainty than intent. Customers often lacked clear signals that payment was required, expected, and successfully completed.</p>
+
+<p>I focused on reinforcing expectations without undermining trust. Small language shifts clarified payment as a requirement rather than a suggestion, while lightweight payment-closure cues helped customers feel confident they had completed the process correctly.</p>
 
 
-<p><b>Opportunities:</b></p>
-<p>Gentle accountability cues</p>
+<h3>Issue: The Freezer Being Left Open</h3>
+<p>The freezer being left open was largely a result of divided attention and the absence of immediate feedback. Customers had no clear signal that a mistake had occurred or that it had consequences.</p>
 
-<p>Language shift:</p>
-<ul>
-<li>From “Please Venmo” and “Suggested Donation”</li>
-<li>To “Pay $26 per container via Venmo”</li>
-</ul>
+<p>Design opportunities here focused on in-the-moment feedback: placing instructions directly on the freezer door, introducing visual or audible cues when the freezer remained open too long, and exploring physical nudges that encouraged closure without relying on memory or enforcement.</p>
 
-<p>Payment closure cues</p>
-<ul>
-<li>“Payment sent? You’re all set.”</li>
-<li>A physical marker (“Paid? Close the freezer”)</li>
-</ul>
+<h3>Alternative Model: Pre-Order and Scheduled Pickup</h3>
 
-
-
-<h3>Issue 3: The freezer gets left open</h3>
-<p><b>Causes:</b></p>
-<ul>
-<li>Divided attention</li>
-<li>No feedback loop</li>
-<li>No immediate consequence</li>
-</ul>
-
-
-<p><b>Opportunities:</b></p>
-
-<p>Immediate sensory feedback</p>
-<ul>
-<li>Audible reminder when open too long</li>
-<li>Strong visual cue on the door interior</li>
-</ul>
-
-<p>Instruction at the moment of action: <i>“Please close firmly to keep everything frozen.”</i></p>
-
-<p>Physical design nudges</p>
-<ul>
-<li>Self-closing hinge</li>
-<li>Heavier door</li>
-<li>Magnetic resistance</li>
-<li>Bluetooth alarm</li>
-</ul>
-
-<h2>Alternative Offering Model</h2>
-<p>Finally I offered an alternative system, that relied on a different ordering and payment model to avoid some of these issues alltogether.</p>
-
-<p>The Model involved:</p>
-
-<ol>
-<li>Setting (and marketing) flavors available for the week on social media.</li>
-<li>Having a set window to order, such as through a service like hotplate. There could be weekly “drops” or a more open-ordering model.</li>
-<li>Users would be able to put together an order and pay online and before picking up</li>
-<li>Having set pickup windows for people to pick up orders, such as 3, 4-hour windows on Thursday, Saturday, and Sunday. Users could come by any window to pick up the order.</li>
-</ol>
-
-<p>The owner could also continue to utilize the freezer for any leftover product. The new model would eliminate many of the payment and process pain-points, while also reducing the amount of wasted ice cream and leftover flavors.</p>
+<p>As an alternative, I explored a service model that shifted selection and payment earlier in the journey.</p>
+<p>Essentially, customers would order and pay online during defined windows, then pick up during scheduled timeframes. This approach reduced ambiguity around pricing and payment, minimized waste, and gave the owner greater predictability, while still allowing the freezer to be used for surplus inventory.</p>
 
 <h2>Conclusion</h2>
 <p>This work reinforced for me that in unstaffed services, experience is shaped less by interfaces and more by how clearly responsibility, trust, and feedback are designed. </p>

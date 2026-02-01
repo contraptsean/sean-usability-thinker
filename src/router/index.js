@@ -46,6 +46,15 @@ const router = createRouter({
                 import ('../views/GlobalDirectCaseStudy.vue')
         },
         {
+            path: '/ochsner-building-case-study',
+            name: 'ochsner-building-case-study',
+            // route level code-splitting
+            // this generates a separate chunk (About.[hash].js) for this route
+            // which is lazy-loaded when the route is visited.
+            component: () =>
+                import ('../views/OchsnerBuildingCaseStudy.vue')
+        },
+        {
             path: '/lao-zi-case-study',
             name: 'lao-zi-case-study',
             // route level code-splitting

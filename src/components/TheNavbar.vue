@@ -12,10 +12,10 @@
     <div class="collapse navbar-collapse justify-content-md-center">
       <ul class="navbar-nav px-5">
         <li class="nav-item">
-          <RouterLink class="nav-link" to="/#strategy-section">Service Design</RouterLink>
+          <RouterLink class="nav-link" to="/#research-section">Research</RouterLink>
           </li>
         <li class="nav-item">
-          <RouterLink class="nav-link" to="/#research-section">Research</RouterLink>
+          <RouterLink class="nav-link" to="/#strategy-section">Service Design</RouterLink>
           </li>
         <li class="nav-item">
           <RouterLink class="nav-link" to="/#engineering-section">Engineering</RouterLink>

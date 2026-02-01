@@ -12,13 +12,13 @@
           <div class="row gx-5 gy-4">
 
             <div class="col-xl-5 col-lg-6 col-12">
-              <RouterLink to="/new-orleans-bingo-case-study" class="card text-dark bg-blue sm-card">
+              <RouterLink to="/ochsner-building-case-study" class="card text-dark bg-purple sm-card">
                 <div class="card-flourish text-end px-5">
                   <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
-                  <p class="card-text pt-5">National Institute of Health</p>
-                  <h3 class="card-title">Inventing a new research method</h3>
+                  <p class="card-text pt-5">Ochsner Health</p>
+                  <h3 class="card-title">Building a UX Research Program at a Hospital Network</h3>
                   <div class="inner">
-                    <img src="@/assets/undraw_whiteboard.png" class="align-self-end" />
+                    <img src="@/assets/undraw_medicine.svg" class="align-self-end" />
                   </div>
                 </div>
               </RouterLink><!--/card-->
@@ -60,9 +60,17 @@
 </div><!--/col-->
 
 <div class="col-xl-5 col-lg-6 col-12">
-
-</div><!--/col-->
-
+              <RouterLink to="/new-orleans-bingo-case-study" class="card text-dark bg-blue sm-card">
+                <div class="card-flourish text-end px-5">
+                  <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
+                  <p class="card-text pt-5">National Institute of Health</p>
+                  <h3 class="card-title">Inventing a new research method</h3>
+                  <div class="inner">
+                    <img src="@/assets/undraw_whiteboard.png" class="align-self-end" />
+                  </div>
+                </div>
+              </RouterLink><!--/card-->
+            </div><!--/col-->
 </div><!--row-->
 
         </div><!--col-->
@@ -123,7 +131,8 @@
 }
 
 .bg-purple {
-  background-color: plum;
+  background-color: mistyrose;
+  ;
 }
 
 .bg-blue {
