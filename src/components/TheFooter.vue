@@ -4,9 +4,9 @@
     <div class="container-fluid">
         <div class="row row-cols-1 row-cols-lg-3 p-5 mt-5">
             <div class="col">
-                <p>© 2026 Sean Hogan <i class="bi bi-balloon-heart"></i></p>
-  
-                
+                <p>&copy; 2026 Sean Hogan <i class="bi bi-balloon-heart"></i></p>
+
+
             </div>
             <div class="col">
                 <h3 class="h5">Contact Me</h3>
@@ -19,7 +19,6 @@
                 <h3 class="h5">Follow Me</h3>
 
                 <ul>
-                    <!-- <li><a href="" class="disabled">Youtube (Coming 04/03/22)</a></li> -->
                     <li><a href="https://waxalchemical.hashnode.dev/">Blog - Wax Alchemical</a></li>
                 </ul>
             </div>
@@ -36,31 +35,35 @@ import { RouterLink } from 'vue-router'
 
 <style scoped>
 p,
-.h5,
-a {
-    color:#CDDEFE;
+.h5 {
+    color: var(--color-text-inverse)!important;
     font-weight: 500;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+a {
+    color: var(--color-text-inverse);
+    font-weight: 400;
+    font-family: 'Libre Franklin', sans-serif;
+    transition: color var(--transition-base);
 }
 
 a:hover {
-    color:#fff;
+    color: #DFB2F9;
 }
 
 ul {
     list-style-type: none;
 }
+
 footer {
-    background-color: #3a568d;
+    background-color: var(--color-blue);
+    padding-top: 2rem;
 }
+
 @media screen and (min-width: 992px) {
     ul {
-        border-left: 1px solid #eee;
+        border-left: 1px solid rgba(255, 255, 255, 0.15);
     }
-    
 }
-
-
-
-
-
 </style>

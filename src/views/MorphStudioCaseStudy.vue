@@ -4,6 +4,7 @@
     <div class="case-study container mt-5">
     <div class="row pt-5 justify-content-center">
         <div class="col-lg-8">
+            <RouterLink to="/" class="back-to-projects"><span class="arrow">&larr;</span> Back to Projects</RouterLink>
             <header>
             <h1>Morph Studio Case Study</h1>
             <p class="lead"><a href="https://morph-studio.netlify.app/">https://morph-studio.netlify.app/</a></p>

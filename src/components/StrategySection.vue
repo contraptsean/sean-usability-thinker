@@ -9,7 +9,7 @@
           <div class="row gx-5 gy-4">
 
             <div class="col-xl-7 col-lg-6 col-12">
-              <RouterLink to="/research-story-case-study" class="card text-dark bg-pink lg-card">
+              <RouterLink to="/research-story-case-study" class="card text-dark bg-color5 lg-card">
                 <div class="card-flourish text-end px-5">
                   <p class="card-text pt-5">National Institute of Health</p>
                   <h3 class="card-title">Developing a new type of reward for participation</h3>
@@ -22,7 +22,7 @@
 
 
             <div class="col-xl-5 col-lg-6 col">
-              <RouterLink to="/global-direct-case-study" class="card text-dark bg-green sm-card">
+              <RouterLink to="/global-direct-case-study" class="card text-dark bg-color6 sm-card">
                 <div class="card-flourish text-end px-5">
                   <p class="card-text pt-5">Colorado State</p>
                   <h3 class="card-title">How I designed a million dollar service</h3>
@@ -37,7 +37,7 @@
 
           <div class="row gx-5 gy-4 mt-3">
             <div class="col-xl-5 col-lg-6 col">
-  <RouterLink to="/lao-zi-case-study" class="card text-dark bg-purple sm-card">
+  <RouterLink to="/lao-zi-case-study" class="card text-dark bg-color7 sm-card">
     <div class="card-flourish text-end px-5">
       <p class="card-text pt-5">New Orleans Local</p>
       <h3 class="card-title">Designing a self-service ice cream pickup</h3>
@@ -50,7 +50,7 @@
 
 
 <div class="col-xl-7 col-lg-6 col-12">
-  <RouterLink to="/participant-satisfaction-case-study" class="card text-dark bg-blue lg-card">
+  <RouterLink to="/participant-satisfaction-case-study" class="card text-dark bg-color8 lg-card">
                 <div class="card-flourish text-end px-5">
                   <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
                   <p class="card-text pt-5">National Institute of Health</p>
@@ -80,43 +80,7 @@
 
 </script>
 <style scoped>
-.card {
-  height: 400px;
-  border-radius: 3rem;
-  overflow: hidden;
-  opacity: .9;
-  transition: all .2s;
-  text-decoration: none;
-}
-
-.card:hover {
-  transform: translate3d(0, -5px, 0);
-  opacity: 1
-}
-
-.card .inner {
-  transition: all .5s;
-  transform: translate3d(0, -.5rem, 0)
-}
-
-.card:hover .inner {
-  transform: translate3d(0, .5rem, 0);
-  transition: all .5s;
-}
-
-.card:active {
-  transform: translateZ(0);
-  box-shadow: none;
-  transition: all .5;
-}
-
-.card.sm-card img {
-  max-width: 600px;
-  position: relative;
-  top: 1rem;
-  left: -1.5rem;
-}
-
+/* Shared card styles are in base.css under .home .card */
 .card.lg-card img {
   max-width: 1000px;
   position: relative;
@@ -124,19 +88,13 @@
   left: -4rem;
 }
 
-.bg-pink {
-  background-color: papayawhip;
-}
 
-.bg-green {
-  background-color: mintcream;
-}
-
-.bg-purple {
-  background-color: plum;
-}
-
-.bg-blue {
-  background-color: powderblue;
-}
+.bg-color1 { background-color: var(--color-card-1); }
+.bg-color2   { background-color: var(--color-card-2); }
+.bg-color3   { background-color: var(--color-card-3); }
+.bg-color4  { background-color: var(--color-card-4); }
+.bg-color5 { background-color: var(--color-card-5); }
+.bg-color6   { background-color: var(--color-card-6); }
+.bg-color7   { background-color: var(--color-card-7); }
+.bg-color8  { background-color: var(--color-card-8); }
 </style>

@@ -1,5 +1,6 @@
 
 <template>
+<GeometricBackground />
 <TheNavbar />
 <RouterView />
 <TheFooter />
@@ -10,6 +11,7 @@ import { RouterView } from 'vue-router'
 import { onMounted, nextTick } from 'vue'
 import TheNavbar from '@/components/TheNavbar.vue'
 import TheFooter from '@/components/TheFooter.vue'
+import GeometricBackground from '@/components/GeometricBackground.vue'
 function scrollFix(hashbang) {
       window.location.hash = hashbang;
     }

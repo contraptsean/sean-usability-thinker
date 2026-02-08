@@ -4,6 +4,7 @@
     <div class="case-study article container mt-5">
     <div class="row pt-5 justify-content-center">
         <div class="col-lg-8">
+            <RouterLink to="/" class="back-to-projects"><span class="arrow">&larr;</span> Back to Projects</RouterLink>
             <header>
             <h1>Building a UX Research Program at a Hospital Network</h1>
             </header>

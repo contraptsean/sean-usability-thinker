@@ -1,61 +1,31 @@
 <template>
 <header class="introduction" id="about-me">
 
-	<span class="star-right animate-appear delay-2"><img src="@/assets/star-1.svg" alt=""></span>
-	<span class="star-left animate-appear delay-3"><img src="@/assets/star-1.svg" alt=""></span>
-  <div class="px-4 py-5 my-5 text-center ">
-
-
-    <h1 class="mt-5 animate animate-pop animate-fade delay">Hi. I'm Sean.</h1>
+  <div class="hero-content text-center">
+    <h1 class="animate animate-pop animate-fade delay">Hi. I'm Sean.</h1>
     <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4 animate animate-pop animate-fade delay-1">I’m a UX researcher and service designer who works on complex services where operations, technology, and human experience intersect.</p>
+      <p class="lead mb-4 animate animate-pop animate-fade delay-1">I'm a UX researcher and service designer who works on complex services where operations, technology, and human experience intersect.</p>
     </div>
+    <div class="hero-rule animate animate-fade delay-2"></div>
   </div>
 
 </header>
 </template>
 <style scoped>
-
-.star-right {
-	position: absolute;
-	right: 10%;
-    top: 30%;
+.hero-content {
+  padding: 10rem 1.5rem 6rem 1.5rem;
 }
 
-.star-left {
-	position: absolute;
-	right: 80%;
-    top: 20%;
+.hero-rule {
+  width: 3rem;
+  height: 2px;
+  background-color: var(--color-accent);
+  margin: 0 auto;
 }
 
-@media screen and (min-width: 850px) {
-    .star-right,
-	.star-left {
-      display: block;
-    }
+@media screen and (max-width: 800px) {
+  .hero-content {
+    padding: 7rem 1.5rem 4rem 1.5rem;
   }
-  
-  @media screen and (max-width: 850px) {
-    .star-right,
-	.star-left {
-	display:none;
-    }
-  }
-/* header {
-	background: linear-gradient(-45deg, #6780b0, #c0f9ff, #6780b0, #6780b0);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
 }
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-} */
 </style>

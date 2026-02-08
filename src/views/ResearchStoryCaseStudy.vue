@@ -4,6 +4,7 @@
     <div class="case-study article container mt-5">
     <div class="row pt-5 justify-content-center">
         <div class="col-lg-8">
+            <RouterLink to="/" class="back-to-projects"><span class="arrow">&larr;</span> Back to Projects</RouterLink>
             <header>
             <h1>Developing a New Type of Reward: Research Highlight Story</h1>
             <p class="lead"><a href="https://www.figma.com/proto/7VeEN6rgNMHRftC9JYtF9z/ROResearch-Story?page-id=0%3A1&type=design&node-id=1-5595&viewport=402%2C259%2C0.33&t=UFax9nSD6ya9p28E-1&scaling=scale-down&starting-point-node-id=1%3A5595&mode=design">"Research Highlights Story" Prototype</a></p>

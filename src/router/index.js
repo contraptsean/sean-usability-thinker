@@ -25,12 +25,6 @@ const router = createRouter({
                 import ('../views/NewOrleansBingoCaseStudy.vue')
         },
         {
-            path: '/test-case-study',
-            name: 'test-case-study',
-            component: () =>
-                import ('../views/TestCaseStudy.vue')
-        },
-        {
             path: '/trust-and-value-case-study',
             name: 'trust-and-value-case-study',
             component: () =>
@@ -82,15 +76,6 @@ const router = createRouter({
                 import ('../views/AstroReport.vue')
         },
         {
-            path: '/seans-resume',
-            name: 'seans-resume',
-            // route level code-splitting
-            // this generates a separate chunk (About.[hash].js) for this route
-            // which is lazy-loaded when the route is visited.
-            component: () =>
-                import ('../views/SeansResume.vue')
-        },
-        {
             path: '/morph-studio-case-study',
             name: 'morph-studio-case-study',
             // route level code-splitting
@@ -98,19 +83,6 @@ const router = createRouter({
             // which is lazy-loaded when the route is visited.
             component: () =>
                 import ('../views/MorphStudioCaseStudy.vue')
-        },
-        {
-            path: '/blog',
-            name: 'BlogSection',
-            component: () =>
-                import ('../views/BlogSection.vue'),
-        },
-        {
-            path: '/blog/:slug',
-            name: 'BlogContent',
-            props: route => ({ slug: route.params.slug }),
-            component: () =>
-                import ('../views/BlogContent.vue'),
         }
     ],
     scrollBehavior(to, from, savedPosition) {

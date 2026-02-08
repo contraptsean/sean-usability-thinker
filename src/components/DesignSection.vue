@@ -11,7 +11,7 @@
           <div class="row gx-5 gy-4">
 
             <div class="col-xl-4 col-12">
-              <a href="https://pe5tle.netlify.app/" class="card text-dark bg-pink lg-card">
+              <a href="https://pe5tle.netlify.app/" class="card text-dark bg-color9 lg-card">
                 <div class="card-flourish text-end px-5">
                   <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
                   <p class="card-text pt-5">Image Destruction</p>
@@ -25,7 +25,7 @@
 
 
             <div class="col-xl-4 col-12">
-              <a href="https://dodecamoth.netlify.app/" class="card text-dark bg-green lg-card">
+              <a href="https://dodecamoth.netlify.app/" class="card text-dark bg-color10 lg-card">
                 <div class="card-flourish text-end px-5">
                   <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
                   <p class="card-text pt-5">Three Dimension Rendering</p>
@@ -38,7 +38,7 @@
             </div><!--/col-->
 
             <div class="col-xl-4 col-12">
-              <RouterLink to="/morph-studio-case-study" class="card text-dark bg-purple lg-card">
+              <RouterLink to="/morph-studio-case-study" class="card text-dark bg-color11 lg-card">
                 <div class="card-flourish text-end px-5">
                   <p class="card-text pt-5">Content Site</p>
                   <h3 class="card-title">Morph Studio</h3>
@@ -71,43 +71,7 @@
 
 </script>
 <style scoped>
-.card {
-  height: 400px;
-  border-radius: 3rem;
-  overflow: hidden;
-  opacity: .9;
-  transition: all .2s;
-  text-decoration: none;
-}
-
-.card:hover {
-  transform: translate3d(0, -5px, 0);
-  opacity: 1
-}
-
-.card .inner {
-  transition: all .5s;
-  transform: translate3d(0, -.5rem, 0)
-}
-
-.card:hover .inner {
-  transform: translate3d(0, .5rem, 0);
-  transition: all .5s;
-}
-
-.card:active {
-  transform: translateZ(0);
-  box-shadow: none;
-  transition: all .5;
-}
-
-.card.sm-card img {
-  max-width: 600px;
-  position: relative;
-  top: 1rem;
-  left: -1.5rem;
-}
-
+/* Shared card styles are in base.css under .home .card */
 .card.lg-card img {
   max-width: 1000px;
   position: relative;
@@ -115,18 +79,9 @@
   left: 4rem;
 }
 
-.bg-pink {
-  background-color: peachpuff;
-}
-.bg-green {
-  background-color: turquoise;
-}
-
-.bg-purple {
-  background-color: mistyrose;
-}
-
-
+.bg-color9   { background-color: var(--color-card-9); }
+.bg-color10  { background-color: var(--color-card-10); }
+.bg-color11 { background-color: var(--color-card-11); }
 </style>
 
 
