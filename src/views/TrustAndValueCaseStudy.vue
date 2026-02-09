@@ -26,7 +26,13 @@
 <li>Reliability: Does the program deliver on its promises? Does it respond to feedback and carry out improvements?</li>
 </ul>
 
+<img src="@/assets/nih-trust-1.png" class="w-100" />
+
+
 <p>I translated these concepts into leading and lagging indicators of trust, cataloging existing measures and identifying gaps. This allowed me to integrate trust assessment into a broader customer experience (CX) strategy, ensuring that participant trust was continuously monitored and improved over time.</p>
+<img src="@/assets/nih-trust-2.png" class="w-100" />
+
+
 
 <h2>Defining & Measuring Value</h2>
 
@@ -35,6 +41,12 @@
 <p>One of my key takeaways was that value is not static, but rather highly contextual and changes over time. What a participant values at the start of the program may differ from what they value later.</p>
 
 <p>To quantify this, I adapted a method similar to the Single Ease Question (often used in usability testing) to create a Single Value Question (SVQ). This approach enabled us to measure perceived value at different points in the participant journey, providing a more nuanced and data-driven way to understand evolving motivations.</p>
+
+<img src="@/assets/nih-trust-3.png" class="w-100" />
+
+
+<img src="@/assets/nih-trust-4.png" class="w-100" />
+
 
 <h2>Shifting Program Priorities</h2>
 

@@ -27,6 +27,9 @@
 
 <p>Rather than starting with isolated design fixes, I took a foundational, systems-level approach. My strategy was to start by defining what “success” meant for CX and UX at Ochsner. Then to build the research and measurement infrastructure to support that definition, while creating shared spaces for cross-functional alignment and decision-making.</p>
 
+<img src="@/assets/och-framework.png" class="w-100" />
+
+
 <p>The goal was to move UX from a reactive, ad hoc function to a strategic one. One that could continuously improve patient experiences over time, and use that to influence executive priorities, and demonstrate ROI. The following projects supported that vision:</p>
 
 <h2>Projects & Impact</h2>
@@ -34,11 +37,24 @@
 
 <p>To better understand patient needs, I created user personas and journey maps focused on the highest impact experiences, particularly the Find a Doctor journey. This work uncovered critical issues, such as difficulty comparing providers and losing progress when navigating backward in search, which were later validated through qualitative research. The resulting insights informed design changes to search and provider pages, which led to noticeable increases in task success, satisfaction, and appointment conversions.</p>
 
+<img src="@/assets/och-journey.png" class="w-100" />
+
+
 <p>I also established research operations that enabled us to recruit and manage a participant panel, allowing us to conduct regular usability testing without relying on external vendors. This not only reduced research costs, but significantly increased the speed and frequency of user feedback, embedding research as a repeatable institutional capability.</p>
 
+
+<img src="@/assets/och-survey.png" class="w-25" />
+
 <p>To measure progress over time, I implemented touchpoint surveys on a regular cadence, capturing both quantitative and qualitative feedback. These surveys created longitudinal visibility into experience improvements and supported the collection of much needed targeted qualitative feedback.</p>
+<img src="@/assets/och-fad-1.png" class="w-100" />
+<img src="@/assets/och-fad-2.png" class="w-100" />
+
 
 <p>Finally, I launched and facilitated a monthly UX workgroup that brought together stakeholders from marketing, web development, web content, and communications. This forum created a shared space for decision-making, clarified ownership across design and implementation, and reduced siloed UX efforts. The workgroup remains active today and continues to shape UX direction at Ochsner.</p>
+<img src="@/assets/och-qual-1.png" class="w-100" />
+<img src="@/assets/och-qual-2.png" class="w-100" />
+<img src="@/assets/och-findings.png" class="w-100" />
+
 
 
 <h2>Conclusion</h2>

@@ -10,6 +10,9 @@
             </header>
             <article>
             <p class="lead"><a href="https://csuglobal.edu/direct/">Global Direct</a> is one of the most impactful projects I’ve worked on. It involved creating a new way for students to take courses outside of a traditional degree program. It’s been live for several months now, and the results speak for themselves. Not only has it transformed how students engage with the university, but it’s also had a measurable impact on the institution’s financial strategy.</p>
+
+            <img src="@/assets/direct-macbook-prototype-thumb.png" class="w-100" />
+
 <h2>The Challenge</h2>
 
 <p>The university had tried multiple times to offer courses outside of degree programs as a revenue stream, but nothing had really worked. I was brought in to collaborate with the new Digital Learning department and create a solution that was both student-friendly and financially viable.</p>
