@@ -13,7 +13,7 @@
             <p class="lead"><span class="text-muted">Summary:</span> I designed research to answer important research questions that resulted in developing new types of valuable deliverables for the organization that moved Key Performance Indicators.</p>
 <h2>Introduction</h2>
 
-<p>Utilizing findings from a small study I designed around participant satisfaction and motivation, I identified an opportunity, and designed a deliverable to take advantage of that opportunity  which resulted in improving retention goals for the program.</p>
+<p>Utilizing findings from <RouterLink to="/participant-satisfaction-case-study">a small study I designed around participant satisfaction and motivation</RouterLink>, I identified an opportunity, and designed a deliverable to take advantage of that opportunity  which resulted in improving retention goals for the program.</p>
 <h2>The Opportunity</h2>
 
 <p>The research program had a commitment and unique opportunity to return valuable things during the reassessment experience. However there was not a good opportunity to return information from the surveys they were taking in reassessment, since they already had to take those surveys.</p>

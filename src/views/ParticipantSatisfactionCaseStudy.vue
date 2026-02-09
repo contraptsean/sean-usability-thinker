@@ -19,6 +19,12 @@
 
  <p>To assess participant satisfaction, I developed a survey consisting of three key questions: one Likert scale question regarding satisfaction, another about motivation, and NPS scale question on likelihood to recommend the program. Additionally, an open-text question was included with the likelihood to recommend question to gather qualitative data points. I conducted analysis using R, comparing responses across many facets including: demographics, activity completion, and whether participants received genetic return of results.</p>
 
+<img src="@/assets/nih-survey-1.png" class="w-100" />
+
+<img src="@/assets/nih-survey-2.png" class="w-100" />
+
+
+
 <h2>Findings</h2>
 <p>
     The analysis revealed that satisfaction levels did not significantly differ across participant segments or program duration. However, participants who received genetic results expressed notably higher satisfaction levels. Qualitative analysis of open-text responses highlighted a recurring theme of interest in DNA and genetic results among those with low satisfaction or likelihood to recommend.
@@ -27,6 +33,8 @@
 <p>
     This survey also unveiled a difference in participant motivation than others had hypothesize. While previously assumed that monetary incentives and genetic results were primary motivators, the data indicated that the desire to contribute to scientific advancement emerged as the predominant motivation.
 </p>
+
+<p>These conclusions were foundational and called into question the biggest bets of the research program. It led me to develop the <RouterLink to="/research-story-case-study">"Return of Research Story"</RouterLink>, which became a turning point in the programs offerings of incentives to participants.</p>
             </article>
         </div><!--col-->
     </div><!--row-->
