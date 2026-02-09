@@ -22,7 +22,7 @@
 <li>having to run their business through the instagram platform</li>
 </ol>
 
-<p>I offered to try to help solve some of these issues, and we have been working on the site collaboratively since October. I would say the site is ready (and ready for testing and iteration) but not launched yet. I believe I am waiting on some pictures to feature a gallery of work on the artist pages.</p>
+<p>I offered to try to help solve some of these issues, and we have been working on the site collaboratively since October.</p>
 
 <p>My role, was to design a usable hair education and salon space website that matched with beauty site conventions, and the context of use for common hair appointment making behaviors, as well as helping my stakeholders, Arista and Jordan, to generate web-friendly content for the site.</p>
 
@@ -47,14 +47,9 @@
 <h2> Challenges</h2>
 <ul>
 <li>This wasn’t a simple brochure site, it required making a collective of artists seem seamless and unified, and the stakeholders wanted some fun yet complex visual elements.</li>
-<li>Getting content together has taken a long time, and I’m still waiting on some. Usually in working with clients or stakeholders, I try to help with writing for the web, and making the site as readable and learnable as possible, its always a challenge to get the right type of content from stakeholders, and this type of content (in the beauty/hair industry) was a different and challenging type of writing consideration.</li>
+<li>Getting content together took a long time. Usually in working with clients or stakeholders, I try to help with writing for the web, and making the site as readable and learnable as possible, its always a challenge to get the right type of content from stakeholders, and this type of content (in the beauty/hair industry) was a different and challenging type of writing consideration.</li>
 </ul>
 
-<h2>Takeaways</h2>
-
-<p>I would love to say that they have signed a lot of new clients, or receive exactly the input they expect to receive on their calendaring systems, and it’s all exactly right, but we haven’t launched the site quite yet.</p>
-
-<p>This was the first time I had used Figma, and it was a moderately easy tool to use. I will probably use it or tools like it in the future rather than MS Paint.</p>
 
 </article>
         </div><!--col-->

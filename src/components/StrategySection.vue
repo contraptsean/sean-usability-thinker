@@ -50,7 +50,7 @@
 
 
 <div class="col-xl-7 col-lg-6 col-12">
-  <RouterLink to="/participant-satisfaction-case-study" class="card text-dark bg-color8 lg-card">
+  <RouterLink to="/trust-and-value-case-study" class="card text-dark bg-color8 lg-card">
                 <div class="card-flourish text-end px-5">
                   <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
                   <p class="card-text pt-5">National Institute of Health</p>

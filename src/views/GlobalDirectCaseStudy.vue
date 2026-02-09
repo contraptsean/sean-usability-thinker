@@ -49,7 +49,7 @@
 
 <p>Here’s an early version of the form IT proposed:</p>
 
-<img src="../assets/nds_application-original-workflow.png" class="w-100" />
+<img src="@/assets/nds_application-original-workflow.png" class="w-100" />
 
 <p>And here’s the streamlined workflow we implemented:</p>
 
