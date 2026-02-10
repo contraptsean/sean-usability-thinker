@@ -14,7 +14,12 @@
 
 <h2>The Challenge</h2>
 
-<p>The All of Us research program had been investing much of its budget to reward participants in two primary ways: genetic return of results and monetary incentives. The assumption was that these were the key drivers of participation and retention. But as I began studying participant motivation and satisfaction, I quickly realized that trust was a major barrier to participation, while value was a key driver of adoption and retention. Understanding this interaction became particularly important to my work to improve program satisfaction and success outcomes.</p>
+<p>The All of Us research program had been investing much of its budget to reward participants in two primary ways: </p>
+<ul>
+    <li>genetic return of results</li>
+    <li>and monetary incentives</li>
+</ul>
+<p>The assumption was that these were the key drivers of participation and retention. But as I began studying participant motivation and satisfaction, I quickly realized that trust was a major barrier to participation, while value was a key driver of adoption and retention. Understanding this interaction became particularly important to my work to improve program satisfaction and success outcomes.</p>
 
 <h2>Investigating Trust</h2>
 
@@ -29,7 +34,7 @@
 <img src="@/assets/nih-trust-1.png" class="w-100" />
 
 <p>I translated these concepts into leading and lagging indicators of trust, cataloging existing measures and identifying gaps. This allowed me to integrate trust assessment into a broader customer experience (CX) strategy, ensuring that participant trust was continuously monitored and improved over time.</p>
-<img src="@/assets/nih-trust-2.png" class="w-100" />
+<img src="@/assets/nih-trust-4.png" class="w-100" />
 
 <h2>Defining &amp; Measuring Value</h2>
 
@@ -39,9 +44,8 @@
 
 <p>To quantify this, I adapted a method similar to the Single Ease Question (often used in usability testing) to create a Single Value Question (SVQ). This approach enabled us to measure perceived value at different points in the participant journey, providing a more nuanced and data-driven way to understand evolving motivations.</p>
 
-<img src="@/assets/nih-trust-3.png" class="w-100" />
+<img src="@/assets/nih-value-1.png" class="w-100" />
 
-<img src="@/assets/nih-trust-4.png" class="w-100" />
 
 <h2>Measuring Satisfaction and Motivation</h2>
 
@@ -53,7 +57,7 @@
 
 <p>The analysis revealed that satisfaction levels did not significantly differ across participant segments or program duration. However, participants who received genetic results expressed notably higher satisfaction levels. Qualitative analysis of open-text responses highlighted a recurring theme of interest in DNA and genetic results among those with low satisfaction or likelihood to recommend.</p>
 
-<p>But the most important finding challenged a core assumption of the program. While it had previously been assumed that monetary incentives and genetic results were the primary motivators for participation, the data indicated that the desire to contribute to scientific advancement emerged as the predominant motivation.</p>
+<p>But the most important finding challenged a core assumption of the program. While it had previously been assumed that monetary incentives and genetic results were the primary motivators for participation, <strong>the data indicated that the desire to contribute to scientific advancement emerged as the predominant motivation.</strong></p>
 
 <h2>Shifting Program Priorities</h2>
 
@@ -61,17 +65,20 @@
 
 <h2>The Solution: Return of Research Story</h2>
 
-<p>The research program had a commitment and unique opportunity to return valuable things to participants during the reassessment experience. However, there was not a good opportunity to return information from the surveys they were taking in reassessment, since they already had to take those surveys.</p>
+<p>The research program had a commitment and unique opportunity to return valuable things to participants.</p>
 
-<p>Since my data showed that contribution to science was the top reason for participants to join the program, rather than the monetary incentive, I identified an opportunity to create something valuable that matched with that top motivation, where other programmatic returns and valuable deliverables had not.</p>
+<p>Since my data showed that contribution to science was the top reason for participants to join the program, rather than the monetary incentive, or genetic results, I identified an opportunity to create something valuable that matched with that top motivation, where other programmatic returns and valuable deliverables had not.</p>
 
-<p>I introduced and designed the concept of the "Return of Research Story," a personalized narrative illustrating the impact of participants' contributions to scientific research. This "story" not only showcases the research conducted using participants' data but also serves as a catalyst for continued participation by highlighting available activities and ongoing scientific endeavors.</p>
+<p>I introduced and designed the concept of the <a href="https://www.figma.com/proto/7VeEN6rgNMHRftC9JYtF9z/ROResearch-Story?page-id=0%3A1&type=design&node-id=1-5595&viewport=402%2C259%2C0.33&t=UFax9nSD6ya9p28E-1&scaling=scale-down&starting-point-node-id=1%3A5595&mode=design">"Return of Research Story,"</a> a personalized narrative illustrating the impact of participants' contributions to scientific research. This "story" not only showcases the research conducted using participants' data but also serves as a catalyst for continued participation by highlighting available activities and ongoing scientific endeavors.</p>
 
-<img src="@/assets/research-story.png" class="w-100" />
+<a href="https://www.figma.com/proto/7VeEN6rgNMHRftC9JYtF9z/ROResearch-Story?page-id=0%3A1&type=design&node-id=1-5595&viewport=402%2C259%2C0.33&t=UFax9nSD6ya9p28E-1&scaling=scale-down&starting-point-node-id=1%3A5595&mode=design"><img src="@/assets/research-story.png" class="w-100" /></a>
 
 <h2>Results and Conclusion</h2>
 
-<p>The implementation of the "Return of Research Story" yielded promising results, not only testing well in moderated sessions, but also fostering increased participant engagement metrics in A/B testing with reassessment activities. By aligning program messaging with participants' intrinsic motivation to contribute to science, I enhanced the overall participant experience, and saved the program a potentially significant amount of money.</p>
+<p>The implementation of the "Return of Research Story" yielded promising results, not only testing well in moderated sessions, but also fostering increased participant engagement metrics in A/B testing with reassessment activities. </p>
+
+<p>This had an opportunity to save the program an enormous amount of money, by matching motivation with value, and returning what participants <strong>actually wanted</strong>.</p>
+    
 
 <p>This research led to the development of new trust and value metrics that became key indicators of program success. By collecting participant data, I was able to show which aspects of the program were ineffective and guide improvements toward elements that actually increased trust and perceived value.</p>
 

@@ -56,21 +56,33 @@
               </RouterLink>
             </div>
 
+              <div class="col-xl-6 col-lg-6 col-12">
+              <RouterLink to="/ochsner-ab-case-study" class="card text-dark bg-color6">
+                <div class="card-flourish text-end px-5">
+                  <p class="card-text pt-5">Ochsner Health</p>
+                  <h3 class="card-title">Increasing appointment conversions by 175% with A/B testing</h3>
+                  <div class="inner">
+                    <img src="@/assets/ochsner-ab-thumb.svg" class="w-75" />
+                  </div>
+                </div>
+              </RouterLink>
+            </div> 
+
             <div class="col-xl-6 col-lg-6 col-12">
               <RouterLink to="/lao-zi-case-study" class="card text-dark bg-color5">
                 <div class="card-flourish text-end px-5">
                   <p class="card-text pt-5">New Orleans Local</p>
                   <h3 class="card-title">Designing a self-service ice cream pickup</h3>
                   <div class="inner">
-                    <img src="@/assets/undraw_icecream.svg" />
+                    <img src="@/assets/undraw_icecream.svg" class="w-75" />
                   </div>
                 </div>
               </RouterLink>
             </div>
 
-            
+          
 
-            <div class="col-xl-6 col-lg-6 col-12">
+         <!--    <div class="col-xl-6 col-lg-6 col-12">
               <RouterLink to="/astro-report" class="card text-dark bg-color6">
                 <div class="card-flourish text-end px-5">
                   <p class="card-text pt-5">Task Analysis</p>
@@ -80,7 +92,7 @@
                   </div>
                 </div>
               </RouterLink>
-            </div>
+            </div> -->
 
           </div>
 

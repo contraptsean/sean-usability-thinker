@@ -4,14 +4,26 @@
     <div class="case-study article container mt-5">
     <div class="row pt-5 justify-content-center">
         <div class="col-lg-8">
-            <RouterLink to="/" class="back-to-projects"><span class="arrow">&larr;</span> Back to Projects</RouterLink>
-            <header>
-            <h1>Designing a Self-Service Ice Cream Pickup</h1>
-            </header>
-            <article>
-            <p class="lead">A neighborhood ice cream maker that I really like operated an unstaffed pickup shelf: customers selected ice cream from a freezer and paid via Venmo.</p>
-            <p>There was no staff, no point-of-sale system, and minimal enforcement. This placed the burden of correctness, payment, and error recovery entirely on the service design, which made it an interesting case in how trust, responsibility, and compliance function when oversight is removed and design artifacts replace those normal staff behaviors you might see at a grocery store or ice cream shop.</p>
-            <p>I was fascinated with the delicious process and model which relied heavily on trust and social norms, but the operators were seeing signs of breakdown: confusion about pricing and process, occasional non-payment, and operational issues like the freezer being left open. I offered to help understand the problem and offer some insights.</p>
+<RouterLink to="/" class="back-to-projects"><span class="arrow">&larr;</span> Back to Projects</RouterLink>
+<header>
+<h1>Designing a Self-Service Ice Cream Pickup</h1>
+</header>
+<article>
+<p class="lead">A neighborhood ice cream maker that I really like operated an unstaffed pickup shelf: customers selected ice cream from a freezer and paid via Venmo.</p>
+<p>There was no staff, no point-of-sale system, and minimal enforcement. This placed the burden of correctness, payment, and error recovery entirely on the service design, which made it an interesting case in how trust, responsibility, and compliance function when oversight is removed and design artifacts replace those normal staff behaviors you might see at a grocery store or ice cream shop.</p>
+<p class="mb-5">I was fascinated with the delicious process and model which relied heavily on trust and social norms, but the operators were seeing signs of breakdown: confusion about pricing and process, occasional non-payment, and operational issues like the freezer being left open. I offered to help understand the problem and offer some insights.</p>
+<div class="row">
+<div class="col-4">
+    <img src="@/assets/laozi-1.jpg" class="w-100" />
+</div>
+<div class="col-4">
+    <img src="@/assets/laozi-2.jpg" class="w-100" />
+</div>
+<div class="col-4"><img src="@/assets/laozi-3.jpg" class="w-100" />
+</div>
+
+</div>
+
 <h2>Research</h2>
 
 <p>I was interested in how an unstaffed service might enable customers to confidently understand the process, select, and pay, while at the same time minimizing errors, confusion, and loss.</p>
@@ -33,9 +45,10 @@
 
 <p>I also analyzed the physical and informational artifacts: the freezer layout, pricing labels, and payment instructions, treating them as stand-ins for the staff behaviors that would normally guide the experience.</p>
 
-<p>As I walked through the service from arrival to exit, I mapped where responsibility shifted to the customer and what the service assumed people already knew. I noticed that the service asked customers to confirm pricing, initiate payment, and self-police correct behavior without providing much reassurance that they were doing the right thing. In several cases, people appeared to rationalize uncertainty rather than resolve it, which could involve underpaying slightly, skipping confirmation, or leaving quickly to avoid embarrassment.</p>
+<p>As I studied the service from I tried to understand where responsibility shifted to the customer and what the service assumed people already knew. I noticed that the service asked customers to confirm pricing, initiate payment, and correct behavior without providing much reassurance that they were doing the right thing. In several cases, people appeared to rationalize uncertainty rather than resolve it, which could involve leaving quickly to avoid embarrassment.</p>
 
 <p>I also looked at failures that were effectively invisible. If someone didn’t pay or left the freezer open, the system provided no immediate signal to the customer or the operator. These silent failures accumulated over time as shrink, spoilage, or operational loss, without a clear moment to intervene.</p>
+
 
 <h2>Design Opportunities</h2>
 <p>From this research, a pattern of breakdowns emerged which occurred at moments where the service required commitment such as: choosing a price, sending payment, closing the freezer. The solution could be providing enough clarity, closure, or feedback. In the absence of staff, design artifacts needed to take on the role of reassurance and correction. Fascinating.</p>

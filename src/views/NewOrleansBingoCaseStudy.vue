@@ -18,6 +18,7 @@
 
 <p><strong>I started with a list of assumptions</strong> and hypotheses about why people might join or avoid the program. <strong>Every time I heard an assumption confirmed, I highlighted it</strong>. When new insights emerged, I added them to a separate list. This approach allowed me to validate patterns and uncover fresh perspectives on participant behavior.</p>
     
+<img src="@/assets/no-bingo-1.png" class="w-100" />
 
 <h2>Key Observations</h2>
 
