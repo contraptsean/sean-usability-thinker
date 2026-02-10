@@ -9,6 +9,18 @@
           <div class="row gx-5 gy-4">
 
             <div class="col-xl-6 col-lg-6 col-12">
+              <RouterLink to="/ochsner-building-case-study" class="card text-dark bg-color1">
+                <div class="card-flourish text-end px-5">
+                  <p class="card-text pt-5">Ochsner Health</p>
+                  <h3 class="card-title">Building a UX Research Program at a Hospital Network</h3>
+                  <div class="inner">
+                    <img src="@/assets/undraw_medicine.svg" />
+                  </div>
+                </div>
+              </RouterLink>
+            </div>
+            
+            <div class="col-xl-6 col-lg-6 col-12">
               <RouterLink to="/global-direct-case-study" class="card text-dark bg-color1">
                 <div class="card-flourish text-end px-5">
                   <p class="card-text pt-5">Colorado State</p>
@@ -19,36 +31,12 @@
                 </div>
               </RouterLink>
             </div>
-
-            <div class="col-xl-6 col-lg-6 col-12">
-              <RouterLink to="/ochsner-building-case-study" class="card text-dark bg-color2">
-                <div class="card-flourish text-end px-5">
-                  <p class="card-text pt-5">Ochsner Health</p>
-                  <h3 class="card-title">Building a UX Research Program at a Hospital Network</h3>
-                  <div class="inner">
-                    <img src="@/assets/undraw_medicine.svg" />
-                  </div>
-                </div>
-              </RouterLink>
-            </div>
-
-            <div class="col-xl-6 col-lg-6 col-12">
-              <RouterLink to="/trust-and-value-case-study" class="card text-dark bg-color3">
-                <div class="card-flourish text-end px-5">
-                  <p class="card-text pt-5">National Institute of Health</p>
-                  <h3 class="card-title">Changing the biggest bets of the program</h3>
-                  <div class="inner">
-                    <img src="@/assets/undraw_data.png" />
-                  </div>
-                </div>
-              </RouterLink>
-            </div>
             
             <div class="col-xl-6 col-lg-6 col-12">
-              <RouterLink to="/research-story-case-study" class="card text-dark bg-color4">
+              <RouterLink to="/nih-case-study" class="card text-dark bg-color3">
                 <div class="card-flourish text-end px-5">
                   <p class="card-text pt-5">National Institute of Health</p>
-                  <h3 class="card-title">Developing a new type of reward for participation</h3>
+                  <h3 class="card-title">How understanding participant motivation changed a national program</h3>
                   <div class="inner">
                     <img src="@/assets/research-story.png" />
                   </div>
@@ -57,20 +45,7 @@
             </div>
 
             <div class="col-xl-6 col-lg-6 col-12">
-              <RouterLink to="/participant-satisfaction-case-study" class="card text-dark bg-color5">
-                <div class="card-flourish text-end px-5">
-                  <p class="card-text pt-5">National Institute of Health</p>
-                  <h3 class="card-title">Understanding participant motivation</h3>
-                  <div class="inner">
-                    <img src="@/assets/dashboard-wireframe.png" />
-                  </div>
-                </div>
-              </RouterLink>
-            </div>
-
-
-            <div class="col-xl-6 col-lg-6 col-12">
-              <RouterLink to="/new-orleans-bingo-case-study" class="card text-dark bg-color6">
+              <RouterLink to="/new-orleans-bingo-case-study" class="card text-dark bg-color4">
                 <div class="card-flourish text-end px-5">
                   <p class="card-text pt-5">National Institute of Health</p>
                   <h3 class="card-title">Inventing a new research method</h3>
@@ -82,7 +57,7 @@
             </div>
 
             <div class="col-xl-6 col-lg-6 col-12">
-              <RouterLink to="/lao-zi-case-study" class="card text-dark bg-color7">
+              <RouterLink to="/lao-zi-case-study" class="card text-dark bg-color5">
                 <div class="card-flourish text-end px-5">
                   <p class="card-text pt-5">New Orleans Local</p>
                   <h3 class="card-title">Designing a self-service ice cream pickup</h3>
@@ -96,7 +71,7 @@
             
 
             <div class="col-xl-6 col-lg-6 col-12">
-              <RouterLink to="/astro-report" class="card text-dark bg-color8">
+              <RouterLink to="/astro-report" class="card text-dark bg-color6">
                 <div class="card-flourish text-end px-5">
                   <p class="card-text pt-5">Task Analysis</p>
                   <h3 class="card-title">Foundational Astro insights</h3>

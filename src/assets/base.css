@@ -64,43 +64,6 @@
     font-weight: normal;
 }
 
-/* opening animation */
-@media screen and (prefers-reduced-motion: reduce) {
-    .animate { animation: none !important; }
-}
-
-.animate-fade {
-    animation-duration: 0.3s;
-    animation-name: animate-fade;
-    animation-fill-mode: backwards;
-}
-
-.animate-appear {
-    animation-duration: 0.5s;
-    animation-name: animate-fade;
-    animation-fill-mode: backwards;
-}
-
-.animate-pop {
-    animation-duration: 0.3s;
-    animation-name: animate-pop;
-    animation-fill-mode: backwards;
-}
-
-@keyframes animate-fade {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-
-@keyframes animate-pop {
-    0% { transform: translate(0, -10px); opacity: 0; }
-    100% { transform: translate(0); opacity: 1; }
-}
-
-.delay { animation-delay: 0.2s; }
-.delay-1 { animation-delay: 0.4s; }
-.delay-2 { animation-delay: .8s; }
-.delay-3 { animation-delay: 1s; }
 
 html body {
     min-height: 100vh;
@@ -199,7 +162,8 @@ html body {
     box-shadow: var(--shadow-sm);
 }
 
-.home .card:hover {
+.home .card:hover,
+.link.outcome:hover {
     transform: translate3d(0, -3px, 0);
     box-shadow: var(--shadow-hover);
 }

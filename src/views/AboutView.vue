@@ -26,8 +26,7 @@
         <div class="col-lg-8">
           <h2>What I Do</h2>
           <p>I help organizations understand the people they serve and turn that understanding into better services. My work tends to live at the intersection of research and strategy:</p>
-          <p><strong>Uncover what's really happening.</strong> Before designing anything, I map the people, processes, and technology that shape the experience. I design and run research studies that surface the frictions of the system, confusion, and unmet needs that .</p>
-          <p>I tie research findings back to outcomes the organization cares about, whether that's enrollment numbers, satisfaction scores, or operational efficiency.</p>
+          <p><strong>Uncover what's really happening.</strong> Before designing anything, I map the people, processes, and technology that shape the experience. I design and run research studies that surface the frictions of the system, and tie those research findings back to outcomes the organization cares about.</p>
           <p>I embed research throughout the project lifecycle rather than treating it as a one-time discovery exercise, and ensure there are systems in place to make research a sustainable practice.</p>
           <p><strong>Turn insights into action.</strong> Insights only matter if they change decisions. I work closely with stakeholders to turn research into concrete design and operational improvements, improvements that match organizational goals.</p>
           <p><strong>Design prototypes, MVPs, and end-to-end services.</strong> I think beyond individual screens, mapping the full journey from first contact through long-term engagement, across channels and touchpoints. I create working prototypes and engineer concept MVPs that solve issues where needed.</p>
@@ -44,15 +43,15 @@
         <div class="col-lg-8">
           <h2>Notable Outcomes</h2>
           <div class="outcomes">
-            <div class="outcome">
-              <p><strong>Designed a service that generated over $1M in revenue</strong> for Colorado State University's Global Direct program, creating a new way for students to take courses outside of traditional degree programs.</p>
-            </div>
-            <div class="outcome">
+            <RouterLink to="/global-direct-case-study" class="link outcome">
+              <p><strong>Designed a service that generated over $1M in revenue</strong> for Colorado State University Global, creating a new way for students to take courses outside of traditional degree programs.</p>
+            </RouterLink>
+            <RouterLink to="/ochsner-building-case-study" class="link outcome">
               <p><strong>Built a UX research program from the ground up</strong> at Ochsner Health, one of the largest hospital networks in the Gulf South, establishing research practices across the organization.</p>
-            </div>
-            <div class="outcome">
+            </RouterLink>
+            <RouterLink to="/nih-case-study" class="link outcome">
               <p><strong>Reshaped a national research program's strategy</strong> at the National Institutes of Health, changing the biggest bets of the All of Us Research Program based on participant trust and value research.</p>
-            </div>
+            </RouterLink>
             <div class="outcome">
               <p><strong>Developed an award-winning design system</strong> at Florida State University Libraries, in service of developing new services for "distance users" or anyone who was using library resources online.</p>
             </div>
@@ -208,6 +207,7 @@ import { RouterLink } from 'vue-router'
   border-radius: var(--radius-card);
   border-left: 3px solid var(--color-blue);
   box-shadow: var(--shadow-sm);
+  text-decoration: none;
 }
 
 .outcome p {

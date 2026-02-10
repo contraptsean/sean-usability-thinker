@@ -11,7 +11,7 @@
           <div class="row gx-5 gy-4">
 
             <div class="col-xl-4 col-12">
-              <a href="https://pe5tle.netlify.app/" class="card text-dark bg-color9 lg-card">
+              <a href="https://pe5tle.netlify.app/" class="card text-dark bg-color9 lg-card" target="_blank">
                 <div class="card-flourish text-end px-5">
                   <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
                   <p class="card-text pt-5">Image Destruction</p>
@@ -25,7 +25,7 @@
 
 
             <div class="col-xl-4 col-12">
-              <a href="https://dodecamoth.netlify.app/" class="card text-dark bg-color10 lg-card">
+              <a href="https://dodecamoth.netlify.app/" class="card text-dark bg-color10 lg-card" target="_blank">
                 <div class="card-flourish text-end px-5">
                   <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
                   <p class="card-text pt-5">Three Dimension Rendering</p>
@@ -38,7 +38,7 @@
             </div><!--/col-->
 
             <div class="col-xl-4 col-12">
-              <RouterLink to="/morph-studio-case-study" class="card text-dark bg-color11 lg-card">
+              <a href="https://morph-studio.netlify.app/" class="card text-dark bg-color11 lg-card" target="_blank">
                 <div class="card-flourish text-end px-5">
                   <p class="card-text pt-5">Content Site</p>
                   <h3 class="card-title">Morph Studio</h3>
@@ -46,7 +46,7 @@
                     <img src="@/assets/morph-thumb.png" class="" />
                   </div>
                 </div>
-              </RouterLink><!--/card-->
+              </a><!--/card-->
             </div><!--/col-->
 
 
@@ -79,9 +79,9 @@
   left: 4rem;
 }
 
-.bg-color9   { background-color: var(--color-card-9); }
-.bg-color10  { background-color: var(--color-card-10); }
-.bg-color11 { background-color: var(--color-card-11); }
+.bg-color9   { background-color: var(--color-card-1); }
+.bg-color10  { background-color: var(--color-card-2); }
+.bg-color11 { background-color: var(--color-card-3); }
 </style>
 
 

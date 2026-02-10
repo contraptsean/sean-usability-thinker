@@ -48,7 +48,7 @@
 
 
 
-<p>This approach aligned with how traditional students registered, making it more intuitive. Collaborating with Josh Bodnar, a full-stack developer in IT, we ensured our solution fit within the existing Campus Nexus framework.</p>
+<p>This approach aligned with how traditional students registered, making it more intuitive. Collaborating with a developer in IT, we ensured our solution fit within the existing Campus Nexus framework.</p>
 
 <p>Here’s an early version of the form IT proposed:</p>
 
@@ -80,7 +80,7 @@
 
     <p>It wasn’t as seamless as I would’ve liked, but it was the best solution given our constraints.</p>
     <h3>Delayed Launch</h3>
-    <p>We originally planned to launch in October—an optimal time for revenue generation based on a comparative study of a similar program. However, delays from other departments pushed the release to February, which impacted our initial ROI projections.</p>
+    <p>We originally planned to launch in October, which is an optimal time for revenue generation based on a comparative study of a similar program. However, delays from other departments pushed the release to February, which impacted our initial ROI projections.</p>
 
 <h2>Impact & Results</h2>
 
@@ -89,8 +89,8 @@
 <p>One of my biggest takeaways from this project is the importance of documentation. Going forward, I plan to save all wireframes, usability study artifacts, and key stakeholder feedback to make future projects even smoother.</p>
 
 <h2>Final Thoughts</h2>
-<p>This was more than just a design and development project—it was an exploration into marketing, user experience, and institutional strategy. It pushed me to think beyond the typical scope of my work, and I’m excited to see how we can refine and expand on this success in the future.</p>
-<p>Next steps? Collect more qualitative feedback, analyze workflow data, and continue iterating to make the experience even better for students.</p>
+<p>This was an exploration into marketing, user experience, and institutional strategy. It pushed me to think beyond the typical scope of my work, and I’m excited to see how we can refine and expand on this success in the future.</p>
+<p>Next steps are to collect more qualitative feedback, analyze workflow data, and continue iterating to make the experience even better for students.</p>
             </article>
         </div><!--col-->
     </div><!--row-->
