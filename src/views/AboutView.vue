@@ -19,22 +19,21 @@
     </div>
   </section>
 
-  <!-- What I Do -->
+  <!-- Education -->
   <section class="band">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <h2>What I Do</h2>
-          <p>I help organizations understand the people they serve and turn that understanding into better services. My work tends to live at the intersection of research and strategy:</p>
-          <p><strong>Uncover what's really happening.</strong> Before designing anything, I map the people, processes, and technology that shape the experience. I design and run research studies that surface the frictions of the system, and tie those research findings back to outcomes the organization cares about.</p>
-          <p>I embed research throughout the project lifecycle rather than treating it as a one-time discovery exercise, and ensure there are systems in place to make research a sustainable practice.</p>
-          <p><strong>Turn insights into action.</strong> Insights only matter if they change decisions. I work closely with stakeholders to turn research into concrete design and operational improvements, improvements that match organizational goals.</p>
-          <p><strong>Design prototypes, MVPs, and end-to-end services.</strong> I think beyond individual screens, mapping the full journey from first contact through long-term engagement, across channels and touchpoints. I create working prototypes and engineer concept MVPs that solve issues where needed.</p>
-          <p>The best outcomes come from working shoulder-to-shoulder with product managers, engineers, and subject matter experts, not handing off a report. I think it is really important for a well-rounded strategist to be able to make working technology.</p>
+          <h2>Education</h2>
+          <p><strong>M.S. Information</strong> - Florida State University, 2017
+            <br />Graduate Certificate: <strong>Information Architecture &amp; Usability</strong> - Florida State University, 2017</p>
+          <p>I studied in the school of Information at Florida State University, after getting my Bachelor's degree in Humanities from the same school. My coursework focused on <strong>usability, information architecture, and web engineering</strong>. The skills I learned and guidance I received in that program greatly contributed to how I research and design services today.</p>
         </div>
       </div>
     </div>
   </section>
+
+
 
   <!-- Notable Outcomes -->
   <section class="band band-tinted">
@@ -61,21 +60,24 @@
     </div>
   </section>
 
-  <!-- Education -->
+
+ 
+  <!-- What I Do -->
   <section class="band">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <h2>Education</h2>
-          <p><strong>M.S. Information</strong> - Florida State University, 2017
-            <br />Graduate Certificate: <strong>Information Architecture &amp; Usability</strong> - Florida State University, 2017</p>
-          <p>I studied in the school of Information at Florida State University, after getting my Bachelor's degree in Humanities from the same school. My coursework focused on <strong>usability, information architecture, and web engineering</strong>. The skills I learned and guidance I received in that program greatly contributed to how I research and design services today.</p>
+          <h2>What I Do</h2>
+          <p>I help organizations understand the people they serve and turn that understanding into better services. My work tends to live at the intersection of research and strategy:</p>
+          <p><strong>Uncover what's really happening.</strong> Before designing anything, I map the people, processes, and technology that shape the experience. I design and run research studies that surface the frictions of the system, and tie those research findings back to outcomes the organization cares about.</p>
+          <p>I embed research throughout the project lifecycle rather than treating it as a one-time discovery exercise, and ensure there are systems in place to make research a sustainable practice.</p>
+          <p><strong>Turn insights into action.</strong> Insights only matter if they change decisions. I work closely with stakeholders to turn research into concrete design and operational improvements, improvements that match organizational goals.</p>
+          <p><strong>Design prototypes, MVPs, and end-to-end services.</strong> I think beyond individual screens, mapping the full journey from first contact through long-term engagement, across channels and touchpoints. I create working prototypes and engineer concept MVPs that solve issues where needed.</p>
+          <p>The best outcomes come from working shoulder-to-shoulder with product managers, engineers, and subject matter experts, not handing off a report. I think it is really important for a well-rounded strategist to be able to make working technology.</p>
         </div>
       </div>
     </div>
   </section>
-
- 
 
     <!-- Quotes -->
   <section class="band band-tinted">
@@ -85,9 +87,16 @@
           <h2>Quotes</h2>
          <div class="outcomes">
             <div class="outcome">
-              <p><strong>" Sean’s key strength lies in his ability to work effectively with a variety of stakeholders. He has strong communication with the UX and content team, developers, and SMEs, ensuring OPM’s needs were met at each stage of the process. Sean has been key in helping OPM understand their needs for the site architecture on opm.gov effectively organizing complex content into a clear, logical, and user-friendly structure. By researching, conducting card sorting exercises, and reviewing feedback from testing, Sean was able to design navigation paths and content categories that met real user needs. Even when stakeholders have their own opinions on how to organize the content, Sean presents reasonable alternatives to OPM for feedback and acceptance. Sean is also involved in the full-site audit and is a core resource on the HR Career Portal, a new initiative to share resources and advancement to HR Practitioners."</strong></p>
+              <p><strong>“I have done my most innovative and meaningful work with Sean Hogan, whose leadership in user experience, front end development, and design created programs that continue to benefit the FSU community today, and any organization would be lucky to have a dedicated professions with his technical expertise, user-focused approach, and unwavering commitment to innovation.”</strong></p>
+              <p>Lindsey Wharton, FSU Libraries</p>
+            </div>
+
+             <div class="outcome">
+              <p><strong>"Sean’s key strength lies in his ability to work effectively with a variety of stakeholders. He has strong communication with the UX and content team, developers, and SMEs, ensuring OPM’s needs were met at each stage of the process. Sean has been key in helping OPM understand their needs for the site architecture on opm.gov effectively organizing complex content into a clear, logical, and user-friendly structure. By researching, conducting card sorting exercises, and reviewing feedback from testing, Sean was able to design navigation paths and content categories that met real user needs. Even when stakeholders have their own opinions on how to organize the content, Sean presents reasonable alternatives to OPM for feedback and acceptance. Sean is also involved in the full-site audit and is a core resource on the HR Career Portal, a new initiative to share resources and advancement to HR Practitioners."</strong></p>
               <p>Elisa Bhatia, OPM</p>
             </div>
+
+            
           
             
           </div>
