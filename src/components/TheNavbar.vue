@@ -15,7 +15,7 @@
           <RouterLink class="nav-link" to="/#research-strategy-section">Research &amp; Strategy</RouterLink>
           </li>
         <li class="nav-item">
-          <RouterLink class="nav-link" to="/#engineering-section">Engineering</RouterLink>
+          <RouterLink class="nav-link" to="/#engineering-section">AI & Engineering</RouterLink>
           </li>
         <li class="nav-item">
           <RouterLink class="nav-link" to="/about">About Me</RouterLink>

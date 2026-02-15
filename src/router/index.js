@@ -76,6 +76,12 @@ const router = createRouter({
                 import ('../views/MorphStudioCaseStudy.vue')
         },
         {
+            path: '/big-idea-radar-case-study',
+            name: 'big-idea-radar-case-study',
+            component: () =>
+                import ('../views/BigIdeaRadarCaseStudy.vue')
+        },
+        {
             path: '/about',
             name: 'about',
             component: () =>

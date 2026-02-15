@@ -1,13 +1,13 @@
 <script setup>
 import IntroHero from '@/components/IntroHero.vue'
 import ProjectsSection from '@/components/ProjectsSection.vue'
-import DesignSection from '@/components/DesignSection.vue'
+import EngineeringSection from '@/components/EngineeringSection.vue'
 </script>
 
 <template>
 <main id="main-content" class="home">
     <IntroHero />
     <ProjectsSection />
-    <DesignSection />
+    <EngineeringSection />
   </main>
 </template>
