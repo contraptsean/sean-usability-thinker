@@ -31,19 +31,18 @@
 <img src="@/assets/big-idea-arch.png" class="w-100" />
 
 
-<p>The project started as a plain email digest. Once that was running, I wanted to browse and compare ideas more fluidly, so I built a <a href="https://big-idea.netlify.app/">web dashboard</a>. My first instinct was a FastAPI backend, but for an MVP with one user and static daily data, that was overkill. Instead, I wrote a build script that copies digest JSON into the frontend directory and generates a manifest file. The whole thing deploys as a static site on Netlify with zero hosting cost. That pivot from API to static files was a classic service design decision: optimizing for the real constraints of the current context rather than over-engineering for hypothetical scale.</p>
+<p>The project started as a plain email digest. Once that was running, I wanted to browse and compare ideas more fluidly, so I built a <a href="https://big-idea.netlify.app/">web dashboard</a>. My first instinct was a FastAPI backend, but for an MVP with one user and static daily data, that was overkill. Instead, I wrote a build script that copies digest JSON into the frontend directory and generates a manifest file. The whole thing deploys as a static site on Netlify with zero hosting cost.</p>
 
 <p>The <a href="https://big-idea.netlify.app/">frontend</a> is a single-file Vue 3 app with card-based scanning, complexity filters, search, and a slide-in detail panel for deep dives. The information architecture reflects the density of the data: the grid view stays scannable while the panel provides depth on demand.</p>
 
 <h2>Reflection</h2>
 
-<p>Building this in a weekend reinforced something I believe deeply: the most interesting work happens at the intersection of systems thinking, technical execution, and a clear point of view about what's worth making.</p>
+<p>Building this in a weekend reinforced something I believe deeply, that the most interesting work happens at the intersection of systems thinking, technical execution, and a clear point of view about what's worth making.</p>
 
-<p>My hope is that the ideas it surfaces, grounded in real current news, help me and others reduce the friction between "I should build something" and "here's exactly what to build, who it's for, and how to start."</p>
+<p>My hope is that the ideas it surfaces, grounded in real current news, help me and possibly others reduce the friction between "I should build something" and "here's exactly what to build, who it's for, and how to start."</p>
 
 <p>The <a href="https://big-idea.netlify.app/">live dashboard</a> and <a href="https://github.com/contraptsean/big-idea-generator">source code</a> are both public.</p>
 
-<p><em>Built over a weekend. Inspired by Andrew Ng's Agentic AI course, a Syntax podcast episode about second brains, and a run where the ideas connected.</em></p>
 
 </article>
         </div><!--col-->
