@@ -42,14 +42,14 @@
         <div class="col-lg-8">
           <h2>Notable Outcomes</h2>
           <div class="outcomes">
-            <RouterLink to="/global-direct-case-study" class="link outcome">
-              <p><strong>Designed a service that generated over $1M in revenue</strong> for Colorado State University Global, creating a new way for students to take courses outside of traditional degree programs.</p>
-            </RouterLink>
             <RouterLink to="/ochsner-building-case-study" class="link outcome">
               <p><strong>Built a UX research program from the ground up</strong> at Ochsner Health, one of the largest hospital networks in the Gulf South, establishing research practices across the organization.</p>
             </RouterLink>
             <RouterLink to="/nih-case-study" class="link outcome">
               <p><strong>Reshaped a national research program's strategy</strong> at the National Institutes of Health, changing the biggest bets of the All of Us Research Program based on participant trust and value research.</p>
+            </RouterLink>
+            <RouterLink to="/global-direct-case-study" class="link outcome">
+              <p><strong>Designed a service that generated over $1M in revenue</strong> for Colorado State University Global, creating a new way for students to take courses outside of traditional degree programs.</p>
             </RouterLink>
             <div class="outcome">
               <p><strong>Developed an award-winning design system</strong> at Florida State University Libraries, in service of developing new services for "distance users" or anyone who was using library resources online.</p>
