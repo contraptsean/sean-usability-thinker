@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 410" font-family="'Libre Franklin', 'Inter', -apple-system, sans-serif">
+  
+  <!-- Background -->
+  <rect width="780" height="410" fill="#ffffff" rx="8"/>
+  
+  <!-- Title -->
+  <text x="40" y="38" font-size="16" font-weight="600" fill="#1a1a2e">Motivations to Join the Program</text>
+  <text x="40" y="58" font-size="12" fill="#6b7280">Multi-select responses</text>
+
+  <!-- Max bar width: 440px for 19298. Scale: 440/19298 = 0.02280 -->
+
+  <!-- Bar 1: 19,298 -->
+  <text x="40" y="92" font-size="11.5" fill="#374151">Contribute to science</text>
+  <rect x="40" y="98" width="440" height="26" rx="3" fill="#1E3A5F"/>
+  <text x="488" y="116" font-size="11.5" font-weight="600" fill="#1E3A5F">19,298</text>
+
+  <!-- Bar 2: 16,075 -->
+  <text x="40" y="146" font-size="11.5" fill="#374151">Learn more about my health</text>
+  <rect x="40" y="152" width="367" height="26" rx="3" fill="#3B6FA0"/>
+  <text x="415" y="170" font-size="11.5" font-weight="600" fill="#3B6FA0">16,075</text>
+
+  <!-- Bar 3: 10,799 -->
+  <text x="40" y="200" font-size="11.5" fill="#374151">Community to benefit</text>
+  <rect x="40" y="206" width="246" height="26" rx="3" fill="#3B6FA0"/>
+  <text x="294" y="224" font-size="11.5" font-weight="600" fill="#3B6FA0">10,799</text>
+
+  <!-- Bar 4: 4,317 -->
+  <text x="40" y="254" font-size="11.5" fill="#374151">Trust the staff</text>
+  <rect x="40" y="260" width="98" height="26" rx="3" fill="#7BA3C9"/>
+  <text x="146" y="278" font-size="11.5" font-weight="600" fill="#7BA3C9">4,317</text>
+
+  <!-- Bar 5: 825 -->
+  <text x="40" y="308" font-size="11.5" fill="#374151">Monetary</text>
+  <rect x="40" y="314" width="19" height="26" rx="3" fill="#A8C5DE"/>
+  <text x="67" y="332" font-size="11.5" font-weight="600" fill="#A8C5DE">825</text>
+
+  <!-- Bar 6: 326 -->
+  <text x="40" y="362" font-size="11.5" fill="#374151">Other</text>
+  <rect x="40" y="368" width="7" height="26" rx="3" fill="#D5DFF2"/>
+  <text x="55" y="386" font-size="11.5" font-weight="600" fill="#D5DFF2">326</text>
+
+</svg>

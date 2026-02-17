@@ -31,7 +31,7 @@
 <img src="@/assets/big-idea-arch.png" class="w-100" />
 
 
-<p>The project started as a plain email digest. Once that was running, I wanted to browse and compare ideas more fluidly, so I built a <a href="https://big-idea.netlify.app/">web dashboard</a>. My first instinct was a FastAPI backend, but for an MVP with one user and static daily data, that was overkill. Instead, I wrote a build script that copies digest JSON into the frontend directory and generates a manifest file. The whole thing deploys as a static site on Netlify with zero hosting cost.</p>
+<p>The project started as a plain email digest. Once that was running, I wanted to browse and compare ideas more fluidly, so I built a <a href="https://big-idea.netlify.app/">web dashboard</a>. My first instinct was a FastAPI backend, but for an MVP with one user and static daily data, that was overkill. Instead, I wrote a build script that copies digest JSON into the frontend directory and generates a manifest file. I have it deployed as a static site on Netlify.</p>
 
 <p>The <a href="https://big-idea.netlify.app/">frontend</a> is a single-file Vue 3 app with card-based scanning, complexity filters, search, and a slide-in detail panel for deep dives. The information architecture reflects the density of the data: the grid view stays scannable while the panel provides depth on demand.</p>
 

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 220" font-family="'Libre Franklin', 'Inter', -apple-system, sans-serif">
+
+  <!-- Background -->
+  <rect width="780" height="220" fill="#ffffff" rx="8"/>
+
+  <!-- Title -->
+  <text x="40" y="34" font-size="16" font-weight="600" fill="#1a1a2e">The Program's Assumption</text>
+  <text x="40" y="52" font-size="12" fill="#6b7280">How the program believed participation and retention worked</text>
+
+  <!-- Box 1: Program Investment -->
+  <rect x="40" y="80" width="160" height="70" rx="6" fill="#1E3A5F"/>
+  <text x="120" y="112" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">Program Investment</text>
+  <text x="120" y="130" text-anchor="middle" font-size="11" fill="#A8C5DE">(millions annually)</text>
+
+  <!-- Arrow 1 -->
+  <line x1="200" y1="115" x2="240" y2="115" stroke="#1E3A5F" stroke-width="2"/>
+  <polygon points="240,110 250,115 240,120" fill="#1E3A5F"/>
+
+  <!-- Box 2a: Monetary Incentives -->
+  <rect x="260" y="72" width="180" height="36" rx="6" fill="#3B6FA0"/>
+  <text x="350" y="95" text-anchor="middle" font-size="11.5" font-weight="600" fill="#ffffff">Monetary Incentives</text>
+
+  <!-- Box 2b: Genetic Results -->
+  <rect x="260" y="118" width="180" height="36" rx="6" fill="#3B6FA0"/>
+  <text x="350" y="141" text-anchor="middle" font-size="11.5" font-weight="600" fill="#ffffff">Genetic Return of Results</text>
+
+  <!-- Arrow 2 -->
+  <line x1="440" y1="115" x2="480" y2="115" stroke="#1E3A5F" stroke-width="2"/>
+  <polygon points="480,110 490,115 480,120" fill="#1E3A5F"/>
+
+  <!-- Box 3: Participation & Retention -->
+  <rect x="500" y="80" width="200" height="70" rx="6" fill="#1E3A5F"/>
+  <text x="600" y="112" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">Participation</text>
+  <text x="600" y="130" text-anchor="middle" font-size="12" font-weight="600" fill="#ffffff">&amp; Retention</text>
+
+  <!-- Bottom caption -->
+  <text x="390" y="190" text-anchor="middle" font-size="12" font-style="italic" fill="#6b7280">But was this actually what was driving people to participate?</text>
+
+</svg>

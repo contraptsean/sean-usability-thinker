@@ -1,6 +1,6 @@
-#My UX Portfolio
+# UX Portfolio
 
-A personal portfolio site showcasing UX research, strategy, and design engineering case studies. Built with Vue 3 and Vite, deployed on Netlify.
+My current personal portfolio site showcasing UX research, strategy, and design engineering case studies. Built with Vue 3 and Vite, deployed on Netlify.
 
 ## Tech Stack
 
@@ -20,7 +20,6 @@ A personal portfolio site showcasing UX research, strategy, and design engineeri
 - Ochsner A/B Testing
 - Lao Zi
 - Astro Report
-- Morph Studio
 - Big Idea Radar
 
 ## Development

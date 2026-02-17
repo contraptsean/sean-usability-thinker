@@ -12,7 +12,7 @@
               <RouterLink to="/ochsner-building-case-study" class="card text-dark bg-color1">
                 <div class="card-flourish text-end px-5">
                   <p class="card-text pt-5">Ochsner Health</p>
-                  <h3 class="card-title">Building a UX Research Program at a Hospital Network</h3>
+                  <h3 class="card-title">Building a UX research program at a hospital network</h3>
                   <div class="inner">
                     <img src="@/assets/undraw_medicine.svg" />
                   </div>
@@ -20,8 +20,20 @@
               </RouterLink>
             </div>
             
+             <div class="col-xl-6 col-lg-6 col-12">
+              <RouterLink to="/nih-case-study" class="card text-dark bg-color2">
+                <div class="card-flourish text-end px-5">
+                  <p class="card-text pt-5">National Institute of Health</p>
+                  <h3 class="card-title">How understanding participant motivation changed a national program</h3>
+                  <div class="inner">
+                    <img src="@/assets/research-story.png" />
+                  </div>
+                </div>
+              </RouterLink>
+            </div>
+            
             <div class="col-xl-6 col-lg-6 col-12">
-              <RouterLink to="/global-direct-case-study" class="card text-dark bg-color1">
+              <RouterLink to="/global-direct-case-study" class="card text-dark bg-color3">
                 <div class="card-flourish text-end px-5">
                   <p class="card-text pt-5">Colorado State</p>
                   <h3 class="card-title">How I designed a million dollar service</h3>
@@ -32,17 +44,7 @@
               </RouterLink>
             </div>
             
-            <div class="col-xl-6 col-lg-6 col-12">
-              <RouterLink to="/nih-case-study" class="card text-dark bg-color3">
-                <div class="card-flourish text-end px-5">
-                  <p class="card-text pt-5">National Institute of Health</p>
-                  <h3 class="card-title">How understanding participant motivation changed a national program</h3>
-                  <div class="inner">
-                    <img src="@/assets/research-story.png" />
-                  </div>
-                </div>
-              </RouterLink>
-            </div>
+           
 
             <div class="col-xl-6 col-lg-6 col-12">
               <RouterLink to="/new-orleans-bingo-case-study" class="card text-dark bg-color4">

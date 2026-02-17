@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 470" font-family="'Libre Franklin', 'Inter', -apple-system, sans-serif">
+  
+  <!-- Background -->
+  <rect width="780" height="470" fill="#ffffff" rx="8"/>
+  
+  <!-- Title -->
+  <text x="40" y="38" font-size="16" font-weight="600" fill="#1a1a2e">Reasons for Dissatisfaction</text>
+  <text x="40" y="58" font-size="12" fill="#6b7280">Multi-select, among dissatisfied participants (n = 1,897)</text>
+
+  <!-- Bar 1: 1,204 (63%) -->
+  <text x="40" y="92" font-size="11.5" fill="#374151">Haven't received anything of value yet</text>
+  <rect x="40" y="98" width="440" height="26" rx="3" fill="#1E3A5F"/>
+  <text x="488" y="116" font-size="11.5" font-weight="600" fill="#1E3A5F">1,204 (63%)</text>
+
+  <!-- Bar 2: 516 (27%) -->
+  <text x="40" y="146" font-size="11.5" fill="#374151">Other</text>
+  <rect x="40" y="152" width="189" height="26" rx="3" fill="#3B6FA0"/>
+  <text x="237" y="170" font-size="11.5" font-weight="600" fill="#3B6FA0">516 (27%)</text>
+
+  <!-- Bar 3: 474 (25%) -->
+  <text x="40" y="200" font-size="11.5" fill="#374151">Took too long to receive results</text>
+  <rect x="40" y="206" width="173" height="26" rx="3" fill="#3B6FA0"/>
+  <text x="221" y="224" font-size="11.5" font-weight="600" fill="#3B6FA0">474 (25%)</text>
+
+  <!-- Bar 4: 221 (12%) -->
+  <text x="40" y="254" font-size="11.5" fill="#374151">Wasn't satisfied with DNA results</text>
+  <rect x="40" y="260" width="81" height="26" rx="3" fill="#7BA3C9"/>
+  <text x="129" y="278" font-size="11.5" font-weight="600" fill="#7BA3C9">221 (12%)</text>
+
+  <!-- Bar 5: 149 (8%) -->
+  <text x="40" y="308" font-size="11.5" fill="#374151">Program contacts me too often</text>
+  <rect x="40" y="314" width="54" height="26" rx="3" fill="#A8C5DE"/>
+  <text x="102" y="332" font-size="11.5" font-weight="600" fill="#A8C5DE">149 (8%)</text>
+
+  <!-- Bar 6: 147 (8%) -->
+  <text x="40" y="362" font-size="11.5" fill="#374151">Participation takes too much time</text>
+  <rect x="40" y="368" width="54" height="26" rx="3" fill="#A8C5DE"/>
+  <text x="102" y="386" font-size="11.5" font-weight="600" fill="#A8C5DE">147 (8%)</text>
+
+  <!-- Bar 7: 58 (3%) -->
+  <text x="40" y="416" font-size="11.5" fill="#374151">Gift card didn't work</text>
+  <rect x="40" y="422" width="21" height="26" rx="3" fill="#D5DFF2"/>
+  <text x="69" y="440" font-size="11.5" font-weight="600" fill="#D5DFF2">58 (3%)</text>
+
+</svg>

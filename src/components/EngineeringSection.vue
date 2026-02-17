@@ -48,17 +48,7 @@
               </a><!--/card-->
             </div><!--/col-->
 
-            <div class="col-xl-4 col-12">
-              <a href="https://morph-studio.netlify.app/" class="card text-dark bg-color12 lg-card" target="_blank">
-                <div class="card-flourish text-end px-5">
-                  <p class="card-text pt-5">Content Site</p>
-                  <h3 class="card-title">Morph Studio</h3>
-                  <div class="inner">
-                    <img src="@/assets/morph-thumb.png" class="" />
-                  </div>
-                </div>
-              </a><!--/card-->
-            </div><!--/col-->
+
 
           </div><!--row-->
 
