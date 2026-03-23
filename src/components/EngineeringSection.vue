@@ -13,7 +13,7 @@
             <div class="col-xl-4 col-12">
               <RouterLink to="/big-idea-radar-case-study" class="card text-dark bg-color9 lg-card">
                 <div class="card-flourish text-end px-5">
-                  <p class="card-text pt-5">Agentic AI</p>
+                  <p class="card-text pt-5">RAG/Agentic AI</p>
                   <h3 class="card-title">Big Idea Radar</h3>
                   <div class="inner">
                     <img src="@/assets/big-idea-thumb.png" class="" />
@@ -23,20 +23,44 @@
             </div><!--/col-->
 
             <div class="col-xl-4 col-12">
-              <a href="https://pe5tle.netlify.app/" class="card text-dark bg-color10 lg-card" target="_blank">
+              <RouterLink to="/expo-case-study" class="card text-dark bg-color10 lg-card">
                 <div class="card-flourish text-end px-5">
-                  <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
+                  <p class="card-text pt-5">AI Product Strategy</p>
+                  <h3 class="card-title">Expo</h3>
+                  <div class="inner">
+                    <img src="@/assets/expo-2.png" class="" />
+                  </div>
+                </div>
+              </RouterLink><!--/card-->
+            </div><!--/col-->
+
+            <div class="col-xl-4 col-12">
+              <RouterLink to="/scoop-roost-case-study" class="card text-dark bg-color11 lg-card">
+                <div class="card-flourish text-end px-5">
+                  <p class="card-text pt-5">Full-Stack Product</p>
+                  <h3 class="card-title">Scoop Roost</h3>
+                  <div class="inner">
+                    <img src="@/assets/scoop-roost-1.png" class="" />
+                  </div>
+                </div>
+              </RouterLink><!--/card-->
+            </div><!--/col-->
+
+            <div class="col-xl-4 col-12">
+              <a href="https://pe5tle.netlify.app/" class="card text-dark bg-color12 lg-card" target="_blank">
+                <div class="card-flourish text-end px-5">
+                 
                   <p class="card-text pt-5">Image Destruction</p>
                   <h3 class="card-title">pe5tle</h3>
                   <div class="inner">
-                    <img src="@/assets/pestle-wf-thumb.png" class="" />
+                    <img src="@/assets/pestle-1.png" class="" />
                   </div>
                 </div>
               </a><!--/card-->
             </div><!--/col-->
 
             <div class="col-xl-4 col-12">
-              <a href="https://dodecamoth.netlify.app/" class="card text-dark bg-color11 lg-card" target="_blank">
+              <a href="https://dodecamoth.netlify.app/" class="card text-dark bg-color13 lg-card" target="_blank">
                 <div class="card-flourish text-end px-5">
                   <!-- <img src="@/assets/research-story.png" class="card-img" alt="..."> -->
                   <p class="card-text pt-5">Three Dimension Rendering</p>
@@ -79,9 +103,10 @@
 }
 
 .bg-color9   { background-color: var(--color-card-1); }
-.bg-color10  { background-color: var(--color-card-2); }
-.bg-color11 { background-color: var(--color-card-3); }
-.bg-color12 { background-color: var(--color-card-4); }
+.bg-color10  { background-color: var(--color-card-1); }
+.bg-color11 { background-color: var(--color-card-1); }
+.bg-color12 { background-color: var(--color-card-3); }
+.bg-color13 { background-color: var(--color-card-3); }
 </style>
 
 

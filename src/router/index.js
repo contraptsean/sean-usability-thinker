@@ -82,6 +82,18 @@ const router = createRouter({
                 import ('../views/BigIdeaRadarCaseStudy.vue')
         },
         {
+            path: '/expo-case-study',
+            name: 'expo-case-study',
+            component: () =>
+                import ('../views/ExpoCaseStudy.vue')
+        },
+        {
+            path: '/scoop-roost-case-study',
+            name: 'scoop-roost-case-study',
+            component: () =>
+                import ('../views/ScoopRoostCaseStudy.vue')
+        },
+        {
             path: '/about',
             name: 'about',
             component: () =>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Dashboard frame -->
+  <rect x="40" y="30" width="320" height="220" rx="12" fill="#ffffff" stroke="#3E5AAC" stroke-width="2"/>
+
+  <!-- Header bar -->
+  <rect x="40" y="30" width="320" height="40" rx="12" fill="#3E5AAC"/>
+  <rect x="40" y="58" width="320" height="12" fill="#3E5AAC"/>
+  <circle cx="64" cy="50" r="6" fill="#ffffff" opacity="0.6"/>
+  <circle cx="84" cy="50" r="6" fill="#ffffff" opacity="0.4"/>
+  <circle cx="104" cy="50" r="6" fill="#ffffff" opacity="0.3"/>
+
+  <!-- Revenue number -->
+  <rect x="60" y="85" width="120" height="16" rx="3" fill="#2D5A3D" opacity="0.7"/>
+  <rect x="60" y="108" width="70" height="10" rx="3" fill="#2D5A3D" opacity="0.3"/>
+
+  <!-- Bar chart -->
+  <rect x="220" y="130" width="20" height="60" rx="3" fill="#3E5AAC" opacity="0.3"/>
+  <rect x="248" y="110" width="20" height="80" rx="3" fill="#3E5AAC" opacity="0.5"/>
+  <rect x="276" y="90" width="20" height="100" rx="3" fill="#3E5AAC" opacity="0.7"/>
+  <rect x="304" y="120" width="20" height="70" rx="3" fill="#3E5AAC" opacity="0.4"/>
+  <rect x="332" y="140" width="20" height="50" rx="3" fill="#2D5A3D" opacity="0.6"/>
+
+  <!-- Insight lines -->
+  <rect x="60" y="140" width="130" height="8" rx="3" fill="#1A1A1A" opacity="0.12"/>
+  <rect x="60" y="156" width="110" height="8" rx="3" fill="#1A1A1A" opacity="0.08"/>
+  <rect x="60" y="172" width="120" height="8" rx="3" fill="#1A1A1A" opacity="0.08"/>
+
+  <!-- Driver indicators -->
+  <circle cx="72" cy="204" r="8" fill="#2D5A3D" opacity="0.5"/>
+  <rect x="88" y="200" width="60" height="8" rx="3" fill="#1A1A1A" opacity="0.1"/>
+  <circle cx="72" cy="226" r="8" fill="#3E5AAC" opacity="0.4"/>
+  <rect x="88" y="222" width="50" height="8" rx="3" fill="#1A1A1A" opacity="0.1"/>
+</svg>
